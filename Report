@@ -27,7 +27,8 @@ Communication: Messages & Discord
 Decisions will be decided by a majority vote between members
 Nonperforming members will be given a warning
 
-
-## Project Idea
+## Project Ideas
+We discussed various ideas for implementing a house flipper game based on completing different puzzles. We have potential ideas for tiling, electrical wiring, window jigsaw puzzles, moving furniture, and pipe mazes.
+Godot will be the game engine used for this project andd the main scripting language will be GDscript. We are also interested in adding a story element to the game to add an extra layer of immersion.
 
 ## Next Steps
