@@ -5,7 +5,7 @@ Date: 1/31/2025<br />
 Location: Cline Library<br />
 Present participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau<br />
 Missing participants: N/A<br />
-Project repo: GITHUB REPO URL<br />
+Project repo: <a href="https://github.com/TJeffrey237/CS386Project.git">REPO LINK</a>
 
 ## 1. Activity Summary ##
 Tyler
