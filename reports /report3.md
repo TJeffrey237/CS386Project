@@ -1,11 +1,11 @@
 # Report for Week 3 #
-PROJECT TITLE
-Group: 13
-Date: 2/7/2025
-Location: Cline Library
-Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau
-Missing Participants: N/A
-Project Repo: [link]()
+PROJECT TITLE<br />
+Group: 13<br />
+Date: 2/7/2025<br /> 
+Location: Cline Library<br /> 
+Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau<br />
+Missing Participants: N/A<br />
+Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)<br />
 
 ## 1. Activity Summary ##
 
