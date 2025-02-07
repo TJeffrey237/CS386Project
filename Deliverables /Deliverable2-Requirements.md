@@ -15,8 +15,15 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Detractors: players who purely enjoy competetive, high-adrenaline experiences.
 
 # 3. Functional Requirements #
+- Puzzle Requirements
+- Art Requirements
+- Story Requirements
+- Menu Requirements
 
 # 4. Non-Functional Requirements #
+- Performance
+- Accessibility Settings
+- Saving systems
 
 # 5. Minimum Viable Product #
 
