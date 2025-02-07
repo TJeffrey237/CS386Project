@@ -1,4 +1,12 @@
 # Positioning #
+## Problem Statement ##
+
+
+## Product Position Statement ##
+
+
+## Value Propisition & Customer Segement ##
+
 
 # Stakeholders #
 
