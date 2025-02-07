@@ -6,9 +6,10 @@ The problem of repetitive puzzle games affects casual players; the impact of whi
 For casual players who enjoy puzzles, Upkeep is a game that combines the technical mechanics of puzzles with house restoration along with horror story elements. Unlike House Flipper, our product provides a more engaging experience that is less complicated or invested in the precise details of house restoration.
 
 ## Value Propisition & Customer Segement ##
-
+We help casual and mid-core gamers enjoy a structured, engaging, and creatively fulfilling house restoration experience by combining unique puzzle mechanics with interactive storytelling and guided renovation tasks and offering light customization options, clear objectives, and non-repetitive challenges.
 
 # 2. Stakeholders #
+
 
 # 3. Functional Requirements #
 
