@@ -1,23 +1,23 @@
-# Positioning #
+# 1. Positioning #
 ## Problem Statement ##
 
 
-## Product Position Statement ##
+## 2. Product Position Statement ##
 
 
-## Value Propisition & Customer Segement ##
+## 3. Value Propisition & Customer Segement ##
 
 
-# Stakeholders #
+# 4. Stakeholders #
 
-# Functional Requirements #
+# 5. Functional Requirements #
 
-# Non-Functional Requirements #
+# 6. Non-Functional Requirements #
 
-# Minimum Viable Product #
+# 7. Minimum Viable Product #
 
-# Use Cases #
+# 8. Use Cases #
 
-# User Stories #
+# 9. User Stories #
 
-# Issue Tracker #
+# 10. Issue Tracker #
