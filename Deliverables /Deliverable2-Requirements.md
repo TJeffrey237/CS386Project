@@ -1,6 +1,6 @@
 # 1. Positioning #
 ## Problem Statement ##
-The problem of repetitive puzzle games affects casual players; the impact of which is causes loss of interest in the game and wasted development time. 
+The problem of repetitive puzzle games affects casual players; the impact of which is the loss of interest in the game and wasted development time. 
 
 ## Product Position Statement ##
 
