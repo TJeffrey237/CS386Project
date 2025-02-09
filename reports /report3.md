@@ -23,7 +23,10 @@ Jackson
 - Github Summary: 5 commits
 
 Richelle
-- placeholder
+- Contributed to deliverable 2.
+- Looked over interviews and reconsidered some puzzle ideas.
+- Familiarized myself with Godot.
+- Github Summary: 2 commits
 
 ## 2. Retrospective ##
 1. Appreciations: Good discussions about puzzles, interviews, and other related ideas.
@@ -45,4 +48,6 @@ Jackson
 - Share ideas with the group
 
 Richelle
-- placeholder
+- Continue learning how Godot works.
+- Start building on issues & user stories.
+- Work on planning out the story that the game will contain.
