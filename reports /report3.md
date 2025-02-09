@@ -9,11 +9,31 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)<br />
 
 ## 1. Activity Summary ##
 Tyler
-- Created and formatted deliverable 1 in repository
+- Created and formatted deliverable 2
 - Drafted problem statement and potential stakeholders
-- Creates issues #1 and #2 for user stories
-- Brainstormed ideas for art direction 
+- Created issues #1 and #2 for user stories
+- Started working on ideas for art direction
+- GitHub Summary: 15 commits
+
+Jackson
+- placeholder
+
+Richelle
+- placeholder
 
 ## 2. Retrospective ##
+1. Appreciations:
+2. Successes:
+3. Failures:
+4. Barriers:
+5. What we should try next time: 
 
 ## 3. Next Steps ##
+Tyler
+- placeholder
+
+Jackson
+- placeholder
+
+Richelle
+- placeholder
