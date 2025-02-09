@@ -16,7 +16,11 @@ Tyler
 - GitHub Summary: 15 commits
 
 Jackson
-- placeholder
+- Contributed to deliverable 2
+- Went over interviews, and helped make adjustments to our proposed puzzle ideas
+- Created issues #3 and #5 for user stories
+- Started planning out how the game will be organized within Godot
+- Github Summary: 1 commit
 
 Richelle
 - placeholder
