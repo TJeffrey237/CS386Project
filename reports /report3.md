@@ -26,15 +26,17 @@ Richelle
 - placeholder
 
 ## 2. Retrospective ##
-1. Appreciations:
+1. Appreciations: Good discussions about puzzles, interviews, and other related ideas.
 2. Successes: We successfully built on the feedback provided by interviewees and refined our approach to our puzzles.
-3. Failures:
-4. Barriers:
-5. What we should try next time: 
+3. Failures: Some of the things we discussed ended up not being required after doing consumer research.
+4. Barriers: Other coursework.
+5. What we should try next time: Discussing ideas for implementation and narrowing down specifications.
 
 ## 3. Next Steps ##
 Tyler
-- placeholder
+- Decide on art direction for game
+- Finalize project specifications
+- Continue working with Godot & learning GDscript
 
 Jackson
 - Start building on the submitted issues and user stories
