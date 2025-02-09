@@ -20,7 +20,7 @@ Jackson
 - Went over interviews, and helped make adjustments to our proposed puzzle ideas
 - Created issues #3 and #5 for user stories
 - Started planning out how the game will be organized within Godot
-- Github Summary: 1 commit
+- Github Summary: 3 commits
 
 Richelle
 - placeholder
@@ -37,7 +37,10 @@ Tyler
 - placeholder
 
 Jackson
-- placeholder
+- Start building on the submitted issues and user stories
+- Start early stages of planing out how the systems proposed in the user stories will work
+- Finalize ideas of how the game will be organized within Godot
+- Share ideas with the group
 
 Richelle
 - placeholder
