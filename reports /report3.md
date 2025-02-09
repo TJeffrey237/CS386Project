@@ -20,14 +20,14 @@ Jackson
 - Went over interviews, and helped make adjustments to our proposed puzzle ideas
 - Created issues #3 and #5 for user stories
 - Started planning out how the game will be organized within Godot
-- Github Summary: 3 commits
+- Github Summary: 4 commits
 
 Richelle
 - placeholder
 
 ## 2. Retrospective ##
 1. Appreciations:
-2. Successes:
+2. Successes: We successfully built on the feedback provided by interviewees.
 3. Failures:
 4. Barriers:
 5. What we should try next time: 
