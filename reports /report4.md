@@ -16,7 +16,11 @@ Tyler
 - GitHub Summary: 10 commits
 
 Jackson
-- 
+- Discussed use cases
+- Fleshed out the functional requirements for game
+- Documented Use Case 2
+- Documented the user stories in the deliverable
+- GitHub Summary:  27 commits
 
 Richelle
 - 
@@ -35,7 +39,9 @@ Tyler
 - Continue using Godot & GDscript
 
 Jackson
-- 
+- Figure out how unit testing will work for simulating players or situations
+- Get started on scripting basic features needed for future development
+- Continue looking into the best internal organization of the project
 
 Richelle
 - 
