@@ -90,22 +90,22 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 
 # 7. User Stories #
 ## User Story 1: As a developer, I want to design creative assets so that I can make the game visually appealing. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 3 ###
+### Estimate: 4 hours ###
 ## User Story 2: As a developer, I want to write a story script so that I can make a compelling narrative for the game. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 2 ###
+### Estimate: 5 hours ###
 ## User Story 3: As a developer I want to be able to click and drag objects so that I can implement puzzles in the future that utilize this system. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 5 ###
+### Estimate: 6 hours ###
 ## User Story 4: As a developer, I would like to come up with a physics system for later game development. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 2 ###
+### Estimate: 4 hours ###
 ## User Story 5: As a developer I want to implement a system for moving a character with WASD or arrow keys so that I can use it in future puzzles. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 4 ###
+### Estimate: 6 hours ###
 ## User Story 6: As a developer, I want an entity that reacts to movement for future development. ##
-### Priority: ###
-### Estimate: ###
+### Priority: 2 ###
+### Estimate: 8 hours ###
 
 # 8. Issue Tracker #
