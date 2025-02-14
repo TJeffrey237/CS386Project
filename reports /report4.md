@@ -9,7 +9,11 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary
 Tyler
-- 
+- Discussed use cases and requirements for game
+- Provided descriptions for Use Case 3
+- Began working on UI design
+- Created use case diagram
+- GitHub Summary: 10 commits
 
 Jackson
 - 
@@ -26,6 +30,8 @@ Richelle
 
 ## 3. Next Steps
 Tyler
+- Looking into unit testing for Godot
+- Begin designing assets
 - 
 
 Jackson
