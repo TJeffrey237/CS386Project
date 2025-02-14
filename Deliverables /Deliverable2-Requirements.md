@@ -43,11 +43,24 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 
 ## Use Case 2: ##
 ### Actor: ###
+- Player
 ### Trigger: ###
+- Player completes a puzzle.
 ### Pre-Conditions: ###
+- Puzzle has not been completed before.
 ### Post-Conditions: ###
+- The environment has changed to reflect the progress made.
 ### Success Scenario: ###
+- Player is within a valid puzzle.
+- Player finishes the puzzle with a valid solution.
+- Player is transitioned back to main game scene.
+- Player's progress is reflected in the environmental change.
+- Player is no longer able to do that object's puzzle
 ### Alternate Scenario: ###
+- Player decides to exit the puzzle early.
+- Player is transitioned back to the main scene.
+- Player's environmental is not changed due to incomplete puzzle.
+- Player is still able to interact with object again to re-attempt puzzle.
 
 ## Use Case 3: Starting the Game ##
 ### Actor: Player ###
