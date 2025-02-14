@@ -15,10 +15,24 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Detractors: players who purely enjoy competetive, high-adrenaline experiences.
 
 # 3. Functional Requirements #
-- Puzzle Requirements
-- Art Requirements
-- Story Requirements
-- Menu Requirements
+### Puzzle Requirements ###
+- Can properly interact with objects in the environment.
+- Puzzles are straight forward, and the goal is clear.
+- Puzzles should have the mechanics and means of solving the puzzle obviously displayed
+  
+### Art Requirements ###
+- Game looks visually appealing.
+- Consistent art style throughout.
+- UI and other menu elements functionally interact with the player, through visual and other feedback
+
+### Story Requirements ###
+- Game has an overarching structured narrative keeping the player invested.
+- Story elements give the proper emotional response from the player.
+
+### Menu Requirements ###
+- Menu is functional and allows the player to accomplish what they need.
+- Player is able to change settings, such as accessibility, or controls.
+- Menu is self explanatory with no need for elaboration or tutorial.
 
 # 4. Non-Functional Requirements #
 - Performance
