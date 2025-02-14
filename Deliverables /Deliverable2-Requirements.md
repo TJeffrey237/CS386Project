@@ -92,7 +92,7 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ## User Story 2: As a developer, I want to write a story script so that I can make a compelling narrative for the game. ##
 ### Priority: ###
 ### Estimate: ###
-## User Story 3: ##
+## User Story 3: As a developer I want to be able to click and drag objects so that I can implement puzzles in the future that utilize this system. ##
 ### Priority: ###
 ### Estimate: ###
 ## User Story 4: ##
