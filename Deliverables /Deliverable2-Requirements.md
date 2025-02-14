@@ -15,29 +15,29 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Detractors: players who purely enjoy competetive, high-adrenaline experiences.
 
 # 3. Functional Requirements #
-### Puzzle Requirements ###
-- Can properly interact with objects in the environment.
-- Puzzles are straight forward, and the goal is clear.
-- Puzzles should have the mechanics and means of solving the puzzle obviously displayed
+### 1. Puzzle Requirements ###
+- a. Can properly interact with objects in the environment.
+- b. Puzzles are straight forward, and the goal is clear.
+- c. Puzzles should have the mechanics and means of solving the puzzle obviously displayed
   
-### Art Requirements ###
-- Game looks visually appealing.
-- Consistent art style throughout.
-- UI and other menu elements functionally interact with the player, through visual and other feedback
+### 2. Art Requirements ###
+- a. Game looks visually appealing.
+- b. Consistent art style throughout.
+- c. UI and other menu elements functionally interact with the player, through visual and other feedback
 
-### Story Requirements ###
-- Game has an overarching structured narrative keeping the player invested.
-- Story elements give the proper emotional response from the player.
+### 3. Story Requirements ###
+- a. Game has an overarching structured narrative keeping the player invested.
+- b. Story elements give the proper emotional response from the player.
 
-### Menu Requirements ###
-- Menu is functional and allows the player to accomplish what they need.
-- Player is able to change settings, such as accessibility, or controls.
-- Menu is self explanatory with no need for elaboration or tutorial.
+### 4. Menu Requirements ###
+- a. Menu is functional and allows the player to accomplish what they need.
+- b. Player is able to change settings, such as accessibility, or controls.
+- c. Menu is self explanatory with no need for elaboration or tutorial.
 
 # 4. Non-Functional Requirements #
-- Performance
-- Accessibility Settings
-- Saving systems
+1. Performance
+2. Accessibility Settings
+3. Saving systems
 
 # 5. Minimum Viable Product #
 - A tutorial room that shows how the puzzles work.
