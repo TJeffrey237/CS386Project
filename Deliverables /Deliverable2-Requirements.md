@@ -83,7 +83,10 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 2. Update is required for the game 
 3. System prompts user to update game 
 4. Player updates game 
-5. Executable is begins running 
+5. Executable is begins running
+
+![Title-Screen](https://github.com/user-attachments/assets/2b4559d9-0dab-4261-b462-b45615462eef)
+
 
 # 7. User Stories #
 ## User Story 1: As a developer, I want to design creative assets so that I can make the game visually appealing. ##
