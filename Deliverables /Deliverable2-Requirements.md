@@ -58,6 +58,11 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Player's environmental is not changed due to incomplete puzzle.
 - Player is still able to interact with object again to re-attempt puzzle.
 
+![image](https://github.com/user-attachments/assets/af5555a4-6627-499a-a8e3-3f9f4bd088ee)
+
+![image](https://github.com/user-attachments/assets/77ca31a9-fd9f-4e73-815d-16e3a5b8b133)
+
+
 ## Use Case 3: Starting the Game ##
 ### Actor: Player ###
 ### Trigger: Player wants to open the game ###
