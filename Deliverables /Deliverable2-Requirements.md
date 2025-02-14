@@ -86,5 +86,23 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 5. Executable is begins running 
 
 # 7. User Stories #
+## User Story 1: ##
+### Priority: ###
+### Estimate: ###
+## User Story 2: ##
+### Priority: ###
+### Estimate: ###
+## User Story 3: ##
+### Priority: ###
+### Estimate: ###
+## User Story 4: ##
+### Priority: ###
+### Estimate: ###
+## User Story 5: ##
+### Priority: ###
+### Estimate: ###
+## User Story 6: ##
+### Priority: ###
+### Estimate: ###
 
 # 8. Issue Tracker #
