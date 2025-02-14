@@ -109,3 +109,8 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ### Estimate: 8 hours ###
 
 # 8. Issue Tracker #
+
+[Issue Tracker](https://github.com/TJeffrey237/CS386Project/issues)
+
+![image](https://github.com/user-attachments/assets/73412306-22f0-4733-b92c-8501232738e2)
+
