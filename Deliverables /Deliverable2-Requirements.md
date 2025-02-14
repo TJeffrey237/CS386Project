@@ -42,14 +42,10 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ### Alternate Scenario: ###
 
 ## Use Case 2: ##
-### Actor: ###
-- Player
-### Trigger: ###
-- Player completes a puzzle.
-### Pre-Conditions: ###
-- Puzzle has not been completed before.
-### Post-Conditions: ###
-- The environment has changed to reflect the progress made.
+### Actor: Player###
+### Trigger: Player completes a puzzle.###
+### Pre-Conditions: Puzzle has not been completed before.###
+### Post-Conditions: The environment has changed to reflect the progress made.###
 ### Success Scenario: ###
 - Player is within a valid puzzle.
 - Player finishes the puzzle with a valid solution.
