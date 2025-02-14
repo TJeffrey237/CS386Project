@@ -98,7 +98,7 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ## User Story 4: As a developer, I would like to come up with a physics system for later game development. ##
 ### Priority: ###
 ### Estimate: ###
-## User Story 5: ##
+## User Story 5: As a developer I want to implement a system for moving a character with WASD or arrow keys so that I can use it in future puzzles. ##
 ### Priority: ###
 ### Estimate: ###
 ## User Story 6: ##
