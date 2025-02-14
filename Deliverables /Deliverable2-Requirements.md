@@ -16,23 +16,31 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 
 # 3. Functional Requirements #
 ### 1. Puzzle Requirements ###
-- a. Can properly interact with objects in the environment.
-- b. Puzzles are straight forward, and the goal is clear.
-- c. Puzzles should have the mechanics and means of solving the puzzle obviously displayed
+<ol type="a">
+  <li>Can properly interact with objects in the environment.</li>
+  <li>Puzzles are straight forward, and the goal is clear.</li>
+  <li>Puzzles should have the mechanics and means of solving the puzzle obviously displayed</li>
+</ol>
   
 ### 2. Art Requirements ###
-- a. Game looks visually appealing.
-- b. Consistent art style throughout.
-- c. UI and other menu elements functionally interact with the player, through visual and other feedback
+<ol type="a">
+  <li>Game looks visually appealing</li>
+  <li>Consistent art style throughout.</li>
+  <li>UI and other menu elements functionally interact with the player, through visual and other feedback</li>
+</ol>
 
 ### 3. Story Requirements ###
-- a. Game has an overarching structured narrative keeping the player invested.
-- b. Story elements give the proper emotional response from the player.
+<ol type="a">
+  <li>Game has an overarching structured narrative keeping the player invested.g</li>
+  <li>Story elements give the proper emotional response from the player.</li>
+</ol>
 
 ### 4. Menu Requirements ###
-- a. Menu is functional and allows the player to accomplish what they need.
-- b. Player is able to change settings, such as accessibility, or controls.
-- c. Menu is self explanatory with no need for elaboration or tutorial.
+<ol type="a">
+  <li>Menu is functional and allows the player to accomplish what they need.</li>
+  <li>Player is able to change settings, such as accessibility, or controls.</li>
+  <li>Menu is self explanatory with no need for elaboration or tutorial.</li>
+</ol>
 
 # 4. Non-Functional Requirements #
 1. Performance
