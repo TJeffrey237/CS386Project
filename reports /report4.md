@@ -1,10 +1,10 @@
 # Report for Week 3
-Upkeep
-Group: 13
-Date: 2/14/2025
-Location: Cline Library
-Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau
-Missing Participants: N/A
+Upkeep <br />
+Group: 13<br />
+Date: 2/14/2025<br />
+Location: Cline Library<br />
+Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau<br />
+Missing Participants: N/A<br />
 Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary
