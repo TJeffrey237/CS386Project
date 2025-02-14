@@ -40,6 +40,7 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ### Post-Conditions: ###
 ### Success Scenario: ###
 ### Alternate Scenario: ###
+![Screenshot (27)](https://github.com/user-attachments/assets/553b039c-cb54-4bd0-96b9-4e053e2f6d16)
 
 ## Use Case 2: ##
 ### Actor: Player ###
