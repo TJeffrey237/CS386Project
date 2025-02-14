@@ -31,6 +31,7 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Use the GD script built-in code tester to test for bugs.
 
 # 6. Use Cases #
+![Use-Cases](https://github.com/user-attachments/assets/a8f5a245-2868-4702-9ac4-58951fdaddc9)
 - 
 
 # 7. User Stories #
