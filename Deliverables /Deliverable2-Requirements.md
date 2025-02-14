@@ -95,7 +95,7 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ## User Story 3: As a developer I want to be able to click and drag objects so that I can implement puzzles in the future that utilize this system. ##
 ### Priority: ###
 ### Estimate: ###
-## User Story 4: ##
+## User Story 4: As a developer, I would like to come up with a physics system for later game development. ##
 ### Priority: ###
 ### Estimate: ###
 ## User Story 5: ##
