@@ -26,8 +26,12 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 - Saving systems
 
 # 5. Minimum Viable Product #
+- A tutorial room that shows how the puzzles work.
+- Playtest and find people to also playtest.
+- Use the GD script built-in code tester to test for bugs.
 
 # 6. Use Cases #
+- 
 
 # 7. User Stories #
 
