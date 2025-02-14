@@ -49,13 +49,27 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 ### Success Scenario: ###
 ### Alternate Scenario: ###
 
-## Use Case 2: ##
-### Actor: ###
-### Trigger: ###
-### Pre-Conditions: ###
-### Post-Conditions: ###
+## Use Case 3: Starting the Game ##
+### Actor: Player ###
+### Trigger: Player wants to open the game ###
+### Pre-Conditions: Game is installed, player has proper device ###
+### Post-Conditions: Game is running and player is at main menu ###
 ### Success Scenario: ###
+1. Player clicks game icon to start it from a launcher
+2. System verifies game and associated files
+3. Executable begins running
+4. Game initializes assets and required resources
+5. Player reaches main menu
 ### Alternate Scenario: ###
+#### Case 1: #### 
+2. Player is missing game files 
+3. System informs user of file error 
+4. System provides user option to reinstall
+#### Case 2: ####
+2. Update is required for the game 
+3. System prompts user to update game 
+4. Player updates game 
+5. Executable is begins running 
 
 # 7. User Stories #
 
