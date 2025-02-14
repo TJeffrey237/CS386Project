@@ -86,10 +86,10 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 5. Executable is begins running 
 
 # 7. User Stories #
-## User Story 1: As a developer, I want to design creative assets so that I can make the game visually appealing.##
+## User Story 1: As a developer, I want to design creative assets so that I can make the game visually appealing. ##
 ### Priority: ###
 ### Estimate: ###
-## User Story 2: ##
+## User Story 2: As a developer, I want to write a story script so that I can make a compelling narrative for the game. ##
 ### Priority: ###
 ### Estimate: ###
 ## User Story 3: ##
