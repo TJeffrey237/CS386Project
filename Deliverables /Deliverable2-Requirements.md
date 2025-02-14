@@ -32,7 +32,30 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 
 # 6. Use Cases #
 ![Use-Cases](https://github.com/user-attachments/assets/78eacc6a-f4d7-4d37-8dff-a1046a1e6bd9)
-- 
+-
+## Use Case 1: ##
+### Actor: ###
+### Trigger: ###
+### Pre-Conditions: ###
+### Post-Conditions: ###
+### Success Scenario: ###
+### Alternate Scenario: ###
+
+## Use Case 2: ##
+### Actor: ###
+### Trigger: ###
+### Pre-Conditions: ###
+### Post-Conditions: ###
+### Success Scenario: ###
+### Alternate Scenario: ###
+
+## Use Case 2: ##
+### Actor: ###
+### Trigger: ###
+### Pre-Conditions: ###
+### Post-Conditions: ###
+### Success Scenario: ###
+### Alternate Scenario: ###
 
 # 7. User Stories #
 
