@@ -23,7 +23,10 @@ Jackson
 - GitHub Summary:  27 commits
 
 Richelle
-- 
+- Discussed use cases and requirements
+- Provided info for use case 1
+- Helped with planning
+- GitHub Summary: 7 commits
 
 ## 2. Retrospective
 1. Appreciations: Members were all present and active despite external conditions
@@ -44,4 +47,5 @@ Jackson
 - Continue looking into the best internal organization of the project
 
 Richelle
-- 
+- Continue working with Godot
+- figure out how to test
