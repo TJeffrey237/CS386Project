@@ -55,13 +55,13 @@ We help casual and mid-core gamers enjoy a structured, engaging, and creatively 
 # 6. Use Cases #
 ![Use-Cases](https://github.com/user-attachments/assets/78eacc6a-f4d7-4d37-8dff-a1046a1e6bd9)
 -
-## Use Case 1: ##
-### Actor: ###
-### Trigger: ###
-### Pre-Conditions: ###
-### Post-Conditions: ###
-### Success Scenario: ###
-### Alternate Scenario: ###
+## Use Case 1: Accessing puzzles ##
+### Actor: player ###
+### Trigger: click on valid object ###
+### Pre-Conditions: open the game ###
+### Post-Conditions: now able to access the puzzle ###
+### Success Scenario: The puzzle may now be completed ###
+### Alternate Scenario: The puzzle has already been completed ###
 ![Screenshot (27)](https://github.com/user-attachments/assets/553b039c-cb54-4bd0-96b9-4e053e2f6d16)
 
 ## Use Case 2: ##
