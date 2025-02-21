@@ -1,0 +1,35 @@
+# Report for Week 5
+Upkeep <br />
+Group: 13<br />
+Date: 2/21/2025<br />
+Location: Cline Library<br />
+Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau<br />
+Missing Participants: N/A<br />
+Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
+
+## 1. Activity Summary
+Tyler
+- 
+
+Jackson
+- 
+
+Richelle
+- 
+
+## 2. Retrospective
+1. Appreciations: Discussions about scope and puzzles were very productive
+2. Successes: Diversified project idea and laid out architecture
+3. Failures: The required architecture isn't a perfect fit for the project scope
+4. Barriers: Other coursework
+5. What we should try next time: Focus on laying out project implementation
+
+## 3. Next Steps
+Tyler
+- 
+
+Jackson
+- 
+
+Richelle
+- 
