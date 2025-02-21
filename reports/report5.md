@@ -31,6 +31,7 @@ Richelle
 Tyler
 - Start creating assets for the game
 - Start implementing menu functions
+- Plan UI layout
 - Further refine puzzle requirements
 
 Jackson
