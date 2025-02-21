@@ -1,2 +1,0 @@
-# CS386Project
-hey!
