@@ -9,7 +9,10 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary
 Tyler
-- 
+- Started learning Godot & GDscript
+- Refined functional requirements
+- Created & formatted report 5
+- Github Summary: 
 
 Jackson
 - 
@@ -26,6 +29,7 @@ Richelle
 
 ## 3. Next Steps
 Tyler
+- Start creating assets for the game
 - 
 
 Jackson
