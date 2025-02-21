@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://g872etml3u44"]
+
+[ext_resource type="Script" path="res://draggable_object.gd" id="1_5d348"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_gmv70"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2uae2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Drag Body 1" type="StaticBody2D" parent="."]
+position = Vector2(-151, -95)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_gmv70")
+script = ExtResource("1_5d348")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 1"]
+shape = SubResource("RectangleShape2D_2uae2")
+
+[node name="Polygon2D" type="Polygon2D" parent="Drag Body 1"]
+position = Vector2(10, 10)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Drag Body 2" type="StaticBody2D" parent="."]
+position = Vector2(-151, 96)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_gmv70")
+script = ExtResource("1_5d348")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 2"]
+shape = SubResource("RectangleShape2D_2uae2")
+
+[node name="Polygon2D" type="Polygon2D" parent="Drag Body 2"]
+position = Vector2(10, 10)
+color = Color(0, 1, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Drag Body 3" type="StaticBody2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_gmv70")
+script = ExtResource("1_5d348")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 3"]
+shape = SubResource("RectangleShape2D_2uae2")
+
+[node name="Polygon2D" type="Polygon2D" parent="Drag Body 3"]
+position = Vector2(10, 10)
+color = Color(1, 0, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
