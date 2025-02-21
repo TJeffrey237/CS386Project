@@ -18,11 +18,11 @@ Richelle
 - 
 
 ## 2. Retrospective
-1. Appreciations: 
-2. Successes: 
-3. Failures: 
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciations: Discussions about scope and puzzles were very productive
+2. Successes: Diversified project idea and laid out architecture
+3. Failures: The required architecture isn't a perfect fit for the project scope
+4. Barriers: Other coursework
+5. What we should try next time: Focus on laying out project implementation
 
 ## 3. Next Steps
 Tyler
