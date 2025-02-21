@@ -12,7 +12,7 @@ Tyler
 - Started learning Godot & GDscript
 - Refined functional requirements
 - Created & formatted report 5
-- Github Summary: 
+- Github Summary: 4 commits
 
 Jackson
 - 
@@ -30,7 +30,8 @@ Richelle
 ## 3. Next Steps
 Tyler
 - Start creating assets for the game
-- 
+- Start implementing menu functions
+- Further refine puzzle requirements
 
 Jackson
 - 
