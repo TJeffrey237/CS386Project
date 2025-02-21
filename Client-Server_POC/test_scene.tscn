@@ -8,6 +8,8 @@
 
 [node name="Node2D" type="Node2D"]
 
+[node name="Camera2D" type="Camera2D" parent="."]
+
 [node name="Drag Body 1" type="StaticBody2D" parent="."]
 position = Vector2(-151, -95)
 scale = Vector2(4, 4)
@@ -20,8 +22,6 @@ shape = SubResource("RectangleShape2D_2uae2")
 [node name="Polygon2D" type="Polygon2D" parent="Drag Body 1"]
 position = Vector2(10, 10)
 polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
-
-[node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Drag Body 2" type="StaticBody2D" parent="."]
 position = Vector2(-151, 96)
