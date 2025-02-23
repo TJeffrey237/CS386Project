@@ -15,7 +15,12 @@ Tyler
 - Github Summary: 4 commits
 
 Jackson
-- 
+- Created a proof of concept for a client-server system
+- Implemented a functioning drag and drop mechanic
+- Implemented the ability for objects to lock in place
+- Created demos for each of the mechanics
+- Brainstormed on the puzzles we will be working on
+- Github Summary: 13 commits
 
 Richelle
 - 
@@ -35,7 +40,9 @@ Tyler
 - Further refine puzzle requirements
 
 Jackson
-- 
+- Continue working on basic mechanics
+- Implement a basic working puzzle based on already functioning mechanics
+- Evaluate implemented puzzles for how fun they are and adjust accordingly
 
 Richelle
 - 
