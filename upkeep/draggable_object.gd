@@ -23,7 +23,9 @@ func _input(event):
 		if event.pressed and event.button_index == MOUSE_BUTTON_LEFT and is_hovered(mouse_position):
 			if DEBUG_MODE:
 				print("Request being sent to server to move object ", object_id)
-			var response = Server.handle_request("request_move", {"object_id": object_id, "mouse_position": mouse_position})
+			var response = Server.handle_request("request_move", {"object_id": object_id, 
+																  "mouse_position": mouse_position, 
+																  "moveable": moveable})
 			if typeof(response) == typeof(""):
 				return
 			if response.get("approved", false):
@@ -40,9 +42,10 @@ func _process(_delta):
 			held = false
 			var size = $CollisionShape2D.get_shape().get_rect().size
 			Server.handle_request("finalize_move", {"object_id": object_id, 
-																   "new_position": self.position, 
-																   "width": size.x * self.scale.x / 2, 
-																   "height": size.y * self.scale.y / 2})
+													"new_position": self.position, 
+													"width": size.x * self.scale.x / 2, 
+													"height": size.y * self.scale.y / 2,
+													"placeable": placeable})
 		else:
 			var mouse_position = get_global_mouse_position()
 			self.position = mouse_position - relative_mouse_position

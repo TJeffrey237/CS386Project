@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpdp4l35lw5aq"]
+
+[ext_resource type="Script" path="res://placeable_object.gd" id="1_iv5nd"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dxukb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y33ts"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Place Body 1" type="StaticBody2D" parent="."]
+position = Vector2(-151, -95)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_dxukb")
+script = ExtResource("1_iv5nd")
+valid_locations = [Vector2(200, 100)]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 1"]
+shape = SubResource("RectangleShape2D_y33ts")
+
+[node name="Polygon2D" type="Polygon2D" parent="Place Body 1"]
+position = Vector2(10, 10)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Place Body 2" type="StaticBody2D" parent="."]
+position = Vector2(-151, 96)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_dxukb")
+script = ExtResource("1_iv5nd")
+valid_locations = [Vector2(300, 200)]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 2"]
+shape = SubResource("RectangleShape2D_y33ts")
+
+[node name="Polygon2D" type="Polygon2D" parent="Place Body 2"]
+position = Vector2(10, 10)
+color = Color(0, 1, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Place Body 3" type="StaticBody2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_dxukb")
+script = ExtResource("1_iv5nd")
+valid_locations = [Vector2(300, 100)]
+lock_in_place = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 3"]
+shape = SubResource("RectangleShape2D_y33ts")
+
+[node name="Polygon2D" type="Polygon2D" parent="Place Body 3"]
+position = Vector2(10, 10)
+color = Color(1, 0, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
