@@ -1,7 +1,7 @@
 extends "draggable_object.gd"
 
 @export var valid_locations = []
-@export var lock_in_place: bool
+@export var lock_in_place = []
 
 func _ready():
 	super()

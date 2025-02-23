@@ -121,7 +121,7 @@ func finalize_move(data):
 						print("Placement location: ", location_object.position)
 					given_object.position = location_object.position
 					new_position = location_object.position
-					if given_object.get("lock_in_place"):
+					if (given_object.get("lock_in_place"))[given_object.valid_locations.find(location_object.position)]:
 						given_object.moveable = false
 					break
 	
