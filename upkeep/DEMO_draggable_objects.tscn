@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://g872etml3u44"]
 
-[ext_resource type="Script" path="res://draggable_object.gd" id="1_5d348"]
+[ext_resource type="Script" path="res://draggable_object.gd" id="1_j2gyb"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_gmv70"]
 
@@ -14,7 +14,7 @@
 position = Vector2(-151, -95)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_gmv70")
-script = ExtResource("1_5d348")
+script = ExtResource("1_j2gyb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 1"]
 shape = SubResource("RectangleShape2D_2uae2")
@@ -27,7 +27,7 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 position = Vector2(-151, 96)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_gmv70")
-script = ExtResource("1_5d348")
+script = ExtResource("1_j2gyb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 2"]
 shape = SubResource("RectangleShape2D_2uae2")
@@ -41,7 +41,7 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 position = Vector2(0, 1)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_gmv70")
-script = ExtResource("1_5d348")
+script = ExtResource("1_j2gyb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Drag Body 3"]
 shape = SubResource("RectangleShape2D_2uae2")

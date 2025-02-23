@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Client-Server_POC"
-run/main_scene="res://test_scene.tscn"
+config/name="Upkeep"
+run/main_scene="res://DEMO_draggable_objects.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 

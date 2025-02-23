@@ -48,7 +48,6 @@ func request_move(data):
 		var top_most_object = find_top_object(data)
 		if object_id != top_most_object:
 			return {"approved": false}
-		var temp_object = game_state[object_id]
 		update_z_order(object_id)
 		
 		if DEBUG_MODE:

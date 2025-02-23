@@ -1,23 +1,7 @@
-extends Node2D
+extends "object.gd"
 
-var object_id = self.get_instance_id()
 var held = false
 var relative_mouse_position = Vector2()
-
-var DEBUG_MODE = Server.DEBUG_MODE
-
-func _ready():
-	
-	if DEBUG_MODE:
-		print("Object ready start.")
-		
-	var response = Server.handle_request("add_object", {
-		"object_id": object_id,
-		"object": self
-	})
-	
-	if DEBUG_MODE:
-		print("Server Response to Add: ", response)
 
 func is_hovered(mouse_pos):
 	#print(mouse_pos)
