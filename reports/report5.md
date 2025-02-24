@@ -23,7 +23,9 @@ Jackson
 - Github Summary: 13 commits
 
 Richelle
-- 
+- Started working with Godot & GDscript
+- Brainstormed puzzle ideas.
+- Github Summary: 1 commit
 
 ## 2. Retrospective
 1. Appreciations: Discussions about scope and puzzles were very productive
@@ -45,4 +47,6 @@ Jackson
 - Evaluate implemented puzzles for how fun they are and adjust accordingly
 
 Richelle
-- 
+- Work on some of the basic mechanics.
+- Review mechanics that have been made.
+- Continue brainstorming puzzle ideas.
