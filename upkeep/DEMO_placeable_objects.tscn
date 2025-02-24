@@ -15,7 +15,7 @@ position = Vector2(-151, -95)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_dxukb")
 script = ExtResource("1_iv5nd")
-valid_locations = [Vector2(-400, -200)]
+valid_locations = Array[Vector2]([Vector2(-400, -200)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 1"]
@@ -30,8 +30,8 @@ position = Vector2(-151, 96)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_dxukb")
 script = ExtResource("1_iv5nd")
-valid_locations = [Vector2(300, 100), Vector2(-300, 200)]
-lock_in_place = [false, true]
+valid_locations = Array[Vector2]([Vector2(300, 100), Vector2(-300, 200)])
+lock_in_place = Array[bool]([false, true])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 2"]
 shape = SubResource("RectangleShape2D_y33ts")
@@ -46,8 +46,8 @@ position = Vector2(0, 1)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_dxukb")
 script = ExtResource("1_iv5nd")
-valid_locations = [Vector2(300, -200), Vector2(100, -100)]
-lock_in_place = [true, false]
+valid_locations = Array[Vector2]([Vector2(300, -200), Vector2(100, -100)])
+lock_in_place = Array[bool]([true, false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 3"]
 shape = SubResource("RectangleShape2D_y33ts")
