@@ -35,7 +35,7 @@ func add_object(data):
 	update_z_order(object_id)
 	
 	if DEBUG_MODE:
-		print("Object ", object_id, " added")
+		print("Object ", object_id, " added.")
 	
 	return "Object added"
 

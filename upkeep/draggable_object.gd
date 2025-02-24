@@ -14,11 +14,11 @@ func _input(event):
 		var mouse_position = event.global_position - (Vector2(get_tree().root.size) / 2)
 		if DEBUG_MODE:
 			if event.pressed:
-				print(1)
+				print("Mouse button is pressed.")
 			if event.button_index == MOUSE_BUTTON_LEFT:
-				print(2)
+				print("Pressed mouse button is left click.")
 			if is_hovered(mouse_position):
-				print(3)
+				print("Mouse is hovering object.")
 				
 		if event.pressed and event.button_index == MOUSE_BUTTON_LEFT and is_hovered(mouse_position):
 			if DEBUG_MODE:
@@ -30,14 +30,14 @@ func _input(event):
 				return
 			if response.get("approved", false):
 				if DEBUG_MODE:
-					print("Start holding")
+					print("Starting to hold object.")
 				held = true
 				relative_mouse_position = mouse_position - self.position
 			
 func _process(_delta):
 	if held:
 		if DEBUG_MODE:
-			print("Currently holding")
+			print("Currently holding object.")
 		if not Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 			held = false
 			var size = $CollisionShape2D.get_shape().get_rect().size

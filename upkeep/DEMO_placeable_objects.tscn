@@ -16,7 +16,7 @@ scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_dxukb")
 script = ExtResource("1_iv5nd")
 valid_locations = [Vector2(-400, -200)]
-lock_in_place = [false]
+lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Place Body 1"]
 shape = SubResource("RectangleShape2D_y33ts")
