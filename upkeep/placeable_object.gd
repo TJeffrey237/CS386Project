@@ -1,0 +1,11 @@
+extends "draggable_object.gd"
+
+@export var valid_locations = []
+@export var lock_in_place = []
+
+func _ready():
+	super()
+	placeable = true
+	if DEBUG_MODE:
+		print("Making location creation request")
+	Server.handle_request("create_place_locations", {"object_id": object_id, "valid_locations": valid_locations})

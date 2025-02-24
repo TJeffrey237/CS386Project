@@ -1,6 +1,8 @@
 extends Node2D
 
 var object_id = self.get_instance_id()
+var placeable = false
+@export var moveable = true
 var DEBUG_MODE = Server.DEBUG_MODE
 
 func _ready():
