@@ -1,1 +1,35 @@
+# Report for Week 6
+Upkeep <br />
+Group: 13<br />
+Date: 2/28/2025<br />
+Location: Cline Library<br />
+Present Participants: Tyler Jeffrey, Jackson Belzer, Richelle Rouleau<br />
+Missing Participants: N/A<br />
+Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
+## 1. Activity Summary
+Tyler
+- 
+
+Jackson
+- 
+
+Richelle
+- 
+
+## 2. Retrospective
+1. Appreciations: Team members were able to split apart and divide required tasks in order to complete them quicker
+2. Successes: Refined topics covered in deliverable 2, like the class structure and the nonfunctional requirements.
+3. Failures: The last deliverable, we were insufficient at adhering to the specifications and did not elaborate enough on multiple portions.
+4. Barriers: Other coursework
+5. What we should try next time: Make sure to read through and check for meeting specifications
+
+## 3. Next Steps
+Tyler
+- 
+
+Jackson
+- 
+
+Richelle
+- 
