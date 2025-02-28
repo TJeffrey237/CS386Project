@@ -4,3 +4,5 @@ The problem of repetitive puzzle games affects casual players; the impact of whi
 Developers here will focus on maintaining a visually appealing and intuitive experience for players. Key functional requirements include the following: a consistent 2D pixelated art style, interactable **puzzle objects** for ***clickability***, ***sliding***, ***placing***, ***drawing***, and ***dragging***, **navigational buttons** for movement between screens, rooms, and other settings, and an overarching narrative that is implemented differently based on house. Key non-functional requirements include performance, scalability, saving systems, modularity, and a **server** such that Upkeep has the tools for smooth performance on a variety of hardware specifications, saving and loading progress between play sessions, accomodating for future expansions without large structural changes, codebase implementation in such a way to allow for easier debugging and scalability, and a server that communicates with *object states*.
 
 # Model # 
+![image](https://github.com/user-attachments/assets/c44b7b73-17d3-4f52-a458-2ef314037cc8)
+
