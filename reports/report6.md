@@ -12,7 +12,7 @@ Tyler
 - Wrote section 1 of deliverable 3
 - Created art assets for main menu screen & a test room
 - Created issues #14 and #15
-- GitHub summary: 
+- GitHub summary: 9 commits
 
 Jackson
 - 
@@ -31,7 +31,7 @@ Richelle
 Tyler
 - Continue developing art assets
 - Implement button functionality
-- 
+- Work on fleshing out presentation with group
 
 Jackson
 - 
