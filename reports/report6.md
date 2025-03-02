@@ -9,7 +9,10 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary
 Tyler
-- 
+- Wrote section 1 of deliverable 3
+- Created art assets for main menu screen & a test room
+- Created issues #14 and #15
+- GitHub summary: 
 
 Jackson
 - 
@@ -26,6 +29,8 @@ Richelle
 
 ## 3. Next Steps
 Tyler
+- Continue developing art assets
+- Implement button functionality
 - 
 
 Jackson
