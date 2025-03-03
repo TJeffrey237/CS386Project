@@ -15,7 +15,10 @@ Tyler
 - GitHub summary: 9 commits
 
 Jackson
-- 
+-  Further refined implemented dragging and placing systems
+-  Made it so that objects can lock into specific locations, rather than strictly being a locking object
+-  Created class diagram for current and future needed classes that should provide an outline to move forward with
+-  GitHub summary: 7 commits
 
 Richelle
 - 
@@ -34,7 +37,10 @@ Tyler
 - Work on fleshing out presentation with group
 
 Jackson
-- 
+- Implement functionality for an actual puzzle
+- Create a test dragging and placing puzzle
+- Work on creating drawable objects
+- Work on presentation with group
 
 Richelle
 - 
