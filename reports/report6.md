@@ -21,7 +21,10 @@ Jackson
 -  GitHub summary: 7 commits
 
 Richelle
-- 
+- Working more with Godot and understanding previously implemented features.
+- Made the PowerPoint for the presentation.
+- Helped identify the different classes for the class diagram.
+- GitHub summary: 2 commits.
 
 ## 2. Retrospective
 1. Appreciations: Team members were able to split apart and divide required tasks in order to complete them quicker
@@ -43,4 +46,6 @@ Jackson
 - Work on presentation with group
 
 Richelle
-- 
+- Continue to work with Godot.
+- Come up with a puzzle to work on.
+- Finish the presentation.
