@@ -12,7 +12,11 @@ Tyler
 - 
 
 Jackson
-- 
+- Helped refine the midterm presentation
+- Outlined functionings of jigsaw puzzle
+- Started implementation of jigsaw puzzle
+- Opened issue #17
+- Github Summary: 3 Commits
 
 Richelle
 - 
@@ -29,7 +33,9 @@ Tyler
 - 
 
 Jackson
-- 
+- Finish implementing the Jigsaw puzzle
+- Start work on Sliding puzzle
+- Start work on clickable objects that open a puzzle scene
 
 Richelle
 - 
