@@ -21,7 +21,10 @@ Jackson
 - Github Summary: 3 Commits
 
 Richelle
-- 
+- Practiced presentation.
+- Worked on some puzzle code.
+- Keep an eye on what else has been developed.
+- Github Summary: 1 Commits
 
 ## 2. Retrospective ##
 1. Appreciations: Group members were all able to attend and participate despite uncommon meeting date.
@@ -43,4 +46,5 @@ Jackson
 - Start work on clickable objects that open a puzzle scene
 
 Richelle
-- 
+- Work on a little bit of the movement for the one puzzle that needs it.
+- Work on any other bits that need it.
