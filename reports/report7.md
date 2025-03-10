@@ -24,11 +24,11 @@ Richelle
 - 
 
 ## 2. Retrospective
-1. Appreciations: 
-2. Successes: 
-3. Failures: 
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciations: Group members were all able to attend and participate despite uncommon meeting date.
+2. Successes: Successfully refined presentation and updated MVP.
+3. Failures: There wasn't enough time to get out everything we wanted.
+4. Barriers: Other coursework.
+5. What we should try next time: Refine implementation features during discussion.
 
 ## 3. Next Steps
 Tyler
