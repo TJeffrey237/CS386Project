@@ -11,7 +11,7 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 Tyler
 - Practiced midterm project presentation
 - Began work on test room
-- GitHub Summary: 
+- GitHub Summary: 2 Commits
 
 Jackson
 - Helped refine the midterm presentation
