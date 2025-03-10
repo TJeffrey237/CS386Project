@@ -9,7 +9,9 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary
 Tyler
-- 
+- Practiced midterm project presentation
+- Began work on test room
+- GitHub Summary: 
 
 Jackson
 - Helped refine the midterm presentation
@@ -30,7 +32,10 @@ Richelle
 
 ## 3. Next Steps
 Tyler
-- 
+- Work on puzzle art for jigsaw puzzle
+- Recreate title screen
+- Continue work on test room
+- Work on button functionality
 
 Jackson
 - Finish implementing the Jigsaw puzzle
