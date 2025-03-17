@@ -1,13 +1,2 @@
 # Godot 4+ specific ignores
 .godot/
-
-# Ignore Godot temporary files
-.import/
-*.stex
-*.stg
-*.godot-export
-*.translation
-
-# Ignore editor backups
-*.remap
-*.cfg~
