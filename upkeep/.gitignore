@@ -1,2 +1,21 @@
 # Godot 4+ specific ignores
 .godot/
+
+# Ignore the .import folder (Godot auto-generates these files)
+.import/
+
+# Ignore Godot temporary and generated files
+*.stex
+*.stg
+*.godot-export
+*.translation
+
+# Ignore editor backup files
+*.cfg~
+*.remap
+
+# Ignore raw source files
+*.psd
+*.aseprite
+*.kra
+*.xcf
