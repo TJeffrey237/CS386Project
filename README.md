@@ -21,7 +21,7 @@ Upkeep is a 2D puzzle based house restoration game that involves players solving
 - Richelle Rouleau
 
 # License #
-This software is licenced under the MIT licence - see [LICENSE.md]() for details.
+This software is licenced under the MIT licence - see [LICENSE.md](https://github.com/TJeffrey237/CS386Project/blob/e7222587f602f908ce8a97905f97265571e1206b/LICENSE) for details.
 
 # Acknowledgements #
 
