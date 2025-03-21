@@ -10,8 +10,7 @@ Upkeep is a 2D puzzle based house restoration game that involves players solving
 # Deployment #
 
 # Built With #
-Built using [Godot-4.4](https://godotengine.org/) <br/>
-Coded with built-in GDScript
+- [Godot-4.4](https://godotengine.org/) - Game engine being used
 
 # Contributing #
 For information about contributing to this project see [CONTRIBUTING.md].(https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md)
