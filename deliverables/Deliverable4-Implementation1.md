@@ -38,10 +38,11 @@ Our software is licensed under the MIT license, we chose this because it works w
 
 Link: [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/1f0ebd6c482d134169931b3dded6944345594f44/LICENSE)
 
-# Readme File #
-You should also prepare your repository for receiving new contributors. You should prepare a Readme.md file. See an example at https://gist.github.com/PurpleBooth/109311bb0361f32d87a2   In the Readme file, the current version should be stated. You should follow the Semantic Versioning schema (https://semver.org/). Tag the GitHub repository accordingly (https://git-scm.com/book/en/v2/Git-Basics-Tagging). 
-
-Your repository should contain a CONTRIBUTING.md file, a LICENSE file, and a CODE_OF_CONDUCT.md file. Search online for some examples of these files. In this section of the deliverable, put links to these files on GitHub.
+# README File #
+- For project details: [README.md](https://github.com/TJeffrey237/CS386Project/blob/d2ba6edb93d8b26670a88d2699e833ab84171b57/README.md)
+- For code of conduct: [CODE_OF_CONDUCT.md](https://github.com/TJeffrey237/CS386Project/blob/d2ba6edb93d8b26670a88d2699e833ab84171b57/CODE_OF_CONDUCT.md)
+- For contributing: [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/d2ba6edb93d8b26670a88d2699e833ab84171b57/CONTRIBUTING.md)
+- For licensing details: [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/1f0ebd6c482d134169931b3dded6944345594f44/LICENSE)
 
 # UX Design #
 Describe the approach you adopted to design your user interface. Include some screenshots.
