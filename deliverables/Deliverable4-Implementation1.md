@@ -22,10 +22,16 @@ Example:
 - A print screen showing the result of the execution of the automated tests. 
 
 # Technology #
-- List the adopted technologies with a brief description and justification for choosing them.
+[Godot-4.4](https://godotengine.org/) - Godot is a very lightweight and simple game engine that utilizes an easy to pick up Node and Scene system. Engine also has support for GDScript, C#, and C++ languages as well as having extensive documentation for the creation of 2D oriented game development.
+
+[doctest](https://github.com/doctest/doctest) - Godot Engine allows to write unit tests directly in C++. The engine integrates the doctest unit testing framework which gives ability to write test suites and test cases next to production code.
+
+[Pixelorama](https://orama-interactive.itch.io/pixelorama) - Pixel art multitool that allows us to create sprites, tiles, and animations. Has a very simpel UI design and has lots of support for autosaving, layers, export formats, and is fully free to utilize.
+
+
 
 # Deployment #
-Provide a link for the system in production and describe how you are deploying your system. 
+This software is download only.
 
 Some alternatives for deploying your system in the cloud:
 - AWS. AWS Educate offers free credits for students. See the tutorial at https://docker-curriculum.com/ on how to create a container and deploy it on AWS.
