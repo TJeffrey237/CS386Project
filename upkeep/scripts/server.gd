@@ -15,7 +15,8 @@ func _ready():
 		"add_object": add_object,
 		"request_move": request_move,
 		"finalize_move": finalize_move,
-		"create_place_locations": create_place_locations
+		"create_place_locations": create_place_locations,
+		"check_jigsaw_completion" : check_jigsaw_completion
 	}
 
 func handle_request(action, data):
@@ -178,3 +179,12 @@ func create_place_locations(data):
 		copied_object.modulate.a = 0.2
 		placeable_location_objects[copied_object.get_instance_id()] = copied_object
 		given_object.get_parent().add_child.call_deferred(copied_object)
+
+func check_jigsaw_completion(data):
+	var objects = data["objects"]
+	var filled_locations = data["filled_locations"]
+	var given_valid_locations = data["valid_locations"]
+	for location in given_valid_locations:
+		if not location in filled_locations:
+			return false
+	return true
