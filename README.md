@@ -14,7 +14,7 @@ Built using Godot 4.4<br/>
 Coded with built-in GDScript
 
 # Contributing #
-For information about contributing to this project see [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md)
+For information about contributing to this project see [CONTRIBUTING.md].(https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md)
 
 # Versioning #
 We use [SemVer](https://semver.org/) for versioning. To see available versions, look at the tags on this repository.
