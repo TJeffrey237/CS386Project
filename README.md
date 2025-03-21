@@ -12,6 +12,7 @@ Upkeep is a 2D puzzle based house restoration game that involves players solving
 # Built With #
 
 # Contributing #
+For information about contributing to this project see [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md)
 
 # Versioning #
 
