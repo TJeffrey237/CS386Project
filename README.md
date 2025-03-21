@@ -41,6 +41,3 @@ We use [SemVer](https://semver.org/) for versioning. To see available versions, 
 
 # License #
 This software is licenced under the MIT licence - see [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/deliverable4/LICENSE) for details.
-
-# Acknowledgements #
-
