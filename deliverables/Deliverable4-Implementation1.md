@@ -34,7 +34,9 @@ Some alternatives for deploying your system in the cloud:
 - Firebase. Firebase can be a good choice if you are building a mobile phone app.
 
 # Licensing #
-Inform the license you adopted for your source code (remember to configure GitHub accordingly). Explain why you adopted this license. For more information, check https://choosealicense.com/.
+Our software is licensed under the MIT license, we chose this because it works well with our requirements and allows for flexiblility using our product.
+
+Link: [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/1f0ebd6c482d134169931b3dded6944345594f44/LICENSE)
 
 # Readme File #
 You should also prepare your repository for receiving new contributors. You should prepare a Readme.md file. See an example at https://gist.github.com/PurpleBooth/109311bb0361f32d87a2   In the Readme file, the current version should be stated. You should follow the Semantic Versioning schema (https://semver.org/). Tag the GitHub repository accordingly (https://git-scm.com/book/en/v2/Git-Basics-Tagging). 
