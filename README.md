@@ -22,7 +22,11 @@ Upkeep is a 2D puzzle based house restoration game that involves players solving
 This software is download only. 
 
 # Built With #
-- [Godot-4.4](https://godotengine.org/) - Game engine being used
+[Godot-4.4](https://godotengine.org/) - Godot is a very lightweight and simple game engine that utilizes an easy to pick up Node and Scene system. Engine also has support for GDScript, C#, and C++ languages as well as having extensive documentation for the creation of 2D oriented game development.
+
+[doctest](https://github.com/doctest/doctest) - Godot Engine allows to write unit tests directly in C++. The engine integrates the doctest unit testing framework which gives ability to write test suites and test cases next to production code.
+
+[Pixelorama](https://orama-interactive.itch.io/pixelorama) - Pixel art multitool that allows us to create sprites, tiles, and animations. Has a very simpel UI design and has lots of support for autosaving, layers, export formats, and is fully free to utilize.
 
 # Contributing #
 For information about contributing to this project see [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md).
