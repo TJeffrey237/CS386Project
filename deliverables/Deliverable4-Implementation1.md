@@ -33,12 +33,6 @@ Example:
 # Deployment #
 This software is download only.
 
-Some alternatives for deploying your system in the cloud:
-- AWS. AWS Educate offers free credits for students. See the tutorial at https://docker-curriculum.com/ on how to create a container and deploy it on AWS.
-- Digital Ocean or Azzure. As part of the GitHub Education benefits, as a student, you can get $100 at Digital Ocean and $100 at Microsoft Azzure cloud computing platforms (see more details at -https://education.github.com/students)Links to an external site..
-- Oracle Cloud. Oracle offers a free tier in its cloud environment that should be more than enough for your needs.
-- Firebase. Firebase can be a good choice if you are building a mobile phone app.
-
 # Licensing #
 Our software is licensed under the MIT license, we chose this because it works well with our requirements and allows for flexiblility using our product.
 
