@@ -21,17 +21,17 @@ Richelle
 - 
 
 ## 2. Retrospective ##
-1. Appreciations: 
-2. Successes: 
-3. Failures: 
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciations: Everyone is making good use of github branches to keep things out of main.
+2. Successes: Members were able to work on separate tasks well.
+3. Failures: Could have focused more on figuring out unit testing details.
+4. Barriers: Time frame is limited for how much we want to get done.
+5. What we should try next time: Keep focusing on implementation for newer puzzles.
 
 ## 3. Next Steps ##
 Tyler
 - Finalize assets for jigsaw & sliding puzzles
 - Finish implementation for menu screen and buttons
-- Start implementation for in-game menu settings
+- Start design for in-game menu settings
 
 Jackson 
 - 
