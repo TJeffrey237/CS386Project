@@ -7,7 +7,7 @@ var parent_node
 var DEBUG_MODE = Server.DEBUG_MODE
 
 func _ready():
-	parent_node = get_tree().get_root()
+	parent_node = get_parent()
 	
 	if DEBUG_MODE:
 		print("Object ready start.")

@@ -1,3 +1,60 @@
-[gd_scene format=3 uid="uid://b4bhuq144bdir"]
+[gd_scene load_steps=5 format=3 uid="uid://b4bhuq144bdir"]
+
+[ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_sy1ui"]
+[ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="2_8ay3p"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_y3jfp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5m1gu"]
 
 [node name="Tile Puzzle" type="Node2D"]
+script = ExtResource("1_sy1ui")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Piece 1" type="StaticBody2D" parent="."]
+position = Vector2(-151, -95)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-400, -200)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 1"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 1"]
+position = Vector2(10, 10)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 2" type="StaticBody2D" parent="."]
+position = Vector2(-151, 96)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(300, 100)])
+lock_in_place = Array[bool]([false, true])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 2"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 2"]
+position = Vector2(10, 10)
+color = Color(0, 1, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 3" type="StaticBody2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(300, -200)])
+lock_in_place = Array[bool]([true, false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 3"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 3"]
+position = Vector2(10, 10)
+color = Color(1, 0, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)

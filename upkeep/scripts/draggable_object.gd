@@ -35,13 +35,14 @@ func _input(event):
 				relative_mouse_position = mouse_position - self.position
 			
 func _process(_delta):
+	var response = false
 	if held:
 		if DEBUG_MODE:
 			print("Currently holding object.")
 		if not Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 			held = false
 			var size = $CollisionShape2D.get_shape().get_rect().size
-			Server.handle_request("finalize_move", {"object_id": object_id, 
+			response = Server.handle_request("finalize_move", {"object_id": object_id, 
 													"new_position": self.position, 
 													"width": size.x * self.scale.x / 2, 
 													"height": size.y * self.scale.y / 2,
@@ -49,3 +50,5 @@ func _process(_delta):
 		else:
 			var mouse_position = get_global_mouse_position()
 			self.position = mouse_position - relative_mouse_position
+			
+	return response
