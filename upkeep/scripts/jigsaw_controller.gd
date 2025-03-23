@@ -31,4 +31,6 @@ func check_completion():
 	return
 	
 func finish_puzzle():
+	var complete_label = get_node("Complete")
+	complete_label.visible = true
 	pass

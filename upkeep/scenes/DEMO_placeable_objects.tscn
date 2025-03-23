@@ -1,12 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://cpdp4l35lw5aq"]
+[gd_scene load_steps=5 format=3 uid="uid://cpdp4l35lw5aq"]
 
 [ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="1_iv5nd"]
+[ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_t54ou"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dxukb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y33ts"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_t54ou")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

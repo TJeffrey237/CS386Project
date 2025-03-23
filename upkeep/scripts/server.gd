@@ -72,7 +72,7 @@ func find_top_object(data):
 	for object in object_z_map.keys():
 		for overlap_object_id in overlapping_objects:
 			if game_state[overlap_object_id] == game_state[object]:
-				if game_state[object].z_index > current_max_z:
+				if game_state[object].z_index > current_max_z and game_state[object].moveable:
 					top_most_object = overlap_object_id
 					current_max_z = game_state[object].z_index
 	return top_most_object
