@@ -8,4 +8,12 @@ func _ready():
 	placeable = true
 	if DEBUG_MODE:
 		print("Making location creation request")
-	Server.handle_request("create_place_locations", {"object_id": object_id, "valid_locations": valid_locations})
+	parent_node.add_piece(self)
+	
+func _process(_delta):
+	var response
+	response = super(_delta)
+	if response:
+		var placed = response["placed"]
+		if placed:
+			parent_node.check_completion()

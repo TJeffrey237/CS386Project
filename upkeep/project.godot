@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="Upkeep"
-run/main_scene="res://scenes/main_menu.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://assets/sprites/icon.svg"
+run/main_scene="res://scenes/DEMO_draggable_objects.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
 
 [autoload]
 
