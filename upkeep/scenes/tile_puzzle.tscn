@@ -13,11 +13,11 @@ script = ExtResource("1_sy1ui")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Piece 1" type="StaticBody2D" parent="."]
-position = Vector2(-151, -95)
+position = Vector2(-400, 210)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(-400, -200)])
+valid_locations = Array[Vector2]([Vector2(-100, -100)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 1"]
@@ -28,11 +28,11 @@ position = Vector2(10, 10)
 polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Piece 2" type="StaticBody2D" parent="."]
-position = Vector2(-151, 96)
+position = Vector2(-300, 210)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(300, 100)])
+valid_locations = Array[Vector2]([Vector2(0, 0)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 2"]
@@ -44,11 +44,11 @@ color = Color(0, 1, 1, 1)
 polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Piece 3" type="StaticBody2D" parent="."]
-position = Vector2(0, 1)
+position = Vector2(-200, 210)
 scale = Vector2(4, 4)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(300, -200)])
+valid_locations = Array[Vector2]([Vector2(100, 100)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 3"]
@@ -57,4 +57,100 @@ shape = SubResource("RectangleShape2D_5m1gu")
 [node name="Polygon2D" type="Polygon2D" parent="Piece 3"]
 position = Vector2(10, 10)
 color = Color(1, 0, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 4" type="StaticBody2D" parent="."]
+position = Vector2(-100, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(0, 100)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 4"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 4"]
+position = Vector2(10, 10)
+color = Color(0.35693, 0.636434, 0.949949, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 5" type="StaticBody2D" parent="."]
+position = Vector2(0, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(100, 0)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 5"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 5"]
+position = Vector2(10, 10)
+color = Color(0.900744, 0.500606, 0.298123, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 6" type="StaticBody2D" parent="."]
+position = Vector2(100, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-100, 0)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 6"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 6"]
+position = Vector2(10, 10)
+color = Color(0.344671, 0.721594, 0.334916, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 7" type="StaticBody2D" parent="."]
+position = Vector2(200, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(0, -100)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 7"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 7"]
+position = Vector2(10, 10)
+color = Color(0.575395, 0.559035, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 8" type="StaticBody2D" parent="."]
+position = Vector2(300, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(100, -100)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 8"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 8"]
+position = Vector2(10, 10)
+color = Color(0.670582, 0.642704, 0, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Piece 9" type="StaticBody2D" parent="."]
+position = Vector2(400, 210)
+scale = Vector2(4, 4)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-100, 100)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 9"]
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 9"]
+position = Vector2(10, 10)
+color = Color(1, 0.403918, 0.295259, 1)
 polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
