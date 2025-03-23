@@ -32,5 +32,12 @@ func check_completion():
 	
 func finish_puzzle():
 	var complete_label = get_node("Complete")
+	var exit_button = get_node("Exit")
 	complete_label.visible = true
-	pass
+	exit_button.visible = true
+
+func _on_exit_button_pressed():
+	print("SIGNAL RECEIVED!!!!!")
+	var exit_button = get_node("Exit")
+	if exit_button.visible:
+		get_tree().change_scene_to_file("res://scenes/starter_room.tscn")

@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://b4bhuq144bdir"]
+[gd_scene load_steps=7 format=3 uid="uid://b4bhuq144bdir"]
 
 [ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_sy1ui"]
 [ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="2_8ay3p"]
+[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_y3jfp"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_y3jfp"]
 
@@ -172,3 +173,15 @@ text = "Completed"
 fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Exit" type="TextureButton" parent="."]
+visible = false
+offset_left = 325.0
+offset_top = -275.0
+offset_right = 525.0
+offset_bottom = -200.0
+size_flags_vertical = 3
+texture_normal = ExtResource("3_y3jfp")
+stretch_mode = 4
+
+[connection signal="pressed" from="Exit" to="." method="_on_exit_button_pressed"]

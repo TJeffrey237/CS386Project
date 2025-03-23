@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dh34djn7cxg10"]
 
 [ext_resource type="Texture2D" uid="uid://cxlxibktxdwyw" path="res://assets/sprites/TiledBackground.png" id="1_bdgl8"]
-[ext_resource type="Script" uid="uid://br2a4xh6oxlpt" path="res://scripts/starter_room.gd" id="1_hytlw"]
+[ext_resource type="Script" path="res://scripts/starter_room.gd" id="1_hytlw"]
 [ext_resource type="Texture2D" uid="uid://dk1digycpbwuc" path="res://assets/sprites/StarterRoom.png" id="2_3dxns"]
 [ext_resource type="Texture2D" uid="uid://dcyyjobfy2dxx" path="res://assets/sprites/icon.svg" id="4_jhg2j"]
 
