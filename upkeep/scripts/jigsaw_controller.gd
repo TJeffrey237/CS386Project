@@ -14,14 +14,14 @@ func add_piece(piece):
 													 "valid_locations": piece.valid_locations})
 	
 func check_completion():
-	var filled_locations = []
-	var piece_positions = []
+	var filled_locations = {}
+	var piece_positions = {}
 	for piece in pieces:
-		piece_positions.append(piece.position)
+		piece_positions[piece.position] = piece
 	
-	for location in piece_positions:
+	for location in piece_positions.keys():
 		if location in place_locations:
-			filled_locations.append(location)
+			filled_locations[location] = piece_positions[location]
 			
 	var completed = Server.handle_request("check_jigsaw_completion", {"filled_locations": filled_locations, 
 																	  "place_locations":  place_locations})

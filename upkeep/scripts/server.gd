@@ -186,10 +186,15 @@ func check_jigsaw_completion(data):
 	var filled_locations = data["filled_locations"]
 	var given_place_locations = data["place_locations"]
 	for location in given_place_locations:
-		if not location in filled_locations:
+		if not location in filled_locations.keys():
 			if DEBUG_MODE:
 				print("Jigsaw not complete.")
 			return false
+		else:
+			if location not in filled_locations[location].valid_locations:
+				if DEBUG_MODE:
+					print("Jigsaw not complete. (Location match, but not right piece)")
+				return false
 	if DEBUG_MODE:
 		print("Jigsaw complete.")
 	return true
