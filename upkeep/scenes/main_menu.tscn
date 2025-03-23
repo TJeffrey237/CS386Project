@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=4 uid="uid://dcebi3t2p6xyp"]
+[gd_scene load_steps=8 format=4 uid="uid://dcebi3t2p6xyp"]
 
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_3bs22"]
 [ext_resource type="Texture2D" uid="uid://cybabfv8y75yk" path="res://assets/sprites/Bricks.png" id="1_dpdxq"]
 [ext_resource type="Texture2D" uid="uid://ndw1piocxh4h" path="res://assets/sprites/MenuButton.png" id="2_7uds3"]
 [ext_resource type="Texture2D" uid="uid://2fsn5nrsf21w" path="res://assets/sprites/ExitButton.png" id="3_aufx7"]
@@ -22,6 +23,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_3bs22")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 position = Vector2(244.5, 70)
@@ -85,3 +87,6 @@ theme_override_constants/shadow_offset_y = 10
 theme_override_fonts/font = ExtResource("4_3msdv")
 theme_override_font_sizes/font_size = 200
 text = "Upkeep"
+
+[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]
