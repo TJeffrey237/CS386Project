@@ -15,7 +15,11 @@ Tyler
 - Github Summary: 
 
 Jackson
-- 
+- Finished work on the Jigsaw puzzle functionality
+- Fixed previously overlooked bugs, like being able to get objects stuck behind another if completely obscured by a locked object
+- Wrote tests to run through the main functions of the game, like going through menus, or solving the puzzles
+- Wrote sections 2, 3, and 4 of deliverable 4
+- Github Summary: 
 
 Richelle
 - 
