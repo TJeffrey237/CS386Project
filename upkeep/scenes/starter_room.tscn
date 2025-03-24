@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://dh34djn7cxg10"]
+[gd_scene load_steps=7 format=3 uid="uid://dh34djn7cxg10"]
 
 [ext_resource type="Texture2D" uid="uid://cxlxibktxdwyw" path="res://assets/sprites/TiledBackground.png" id="1_bdgl8"]
-[ext_resource type="Script" path="res://scripts/starter_room.gd" id="1_hytlw"]
+[ext_resource type="Script" uid="uid://br2a4xh6oxlpt" path="res://scripts/starter_room.gd" id="1_hytlw"]
 [ext_resource type="Texture2D" uid="uid://dk1digycpbwuc" path="res://assets/sprites/StarterRoom.png" id="2_3dxns"]
-[ext_resource type="Texture2D" uid="uid://dcyyjobfy2dxx" path="res://assets/sprites/icon.svg" id="4_jhg2j"]
+[ext_resource type="Texture2D" uid="uid://df0bg505q0ddc" path="res://assets/sprites/BrokenWindow.png" id="4_jhg2j"]
+[ext_resource type="Texture2D" uid="uid://hwugr14wrm5m" path="res://assets/sprites/BrokenWindowHover.png" id="5_6m1jm"]
+[ext_resource type="Texture2D" uid="uid://5vgnmr4mww6i" path="res://assets/sprites/WindowFixed.png" id="6_6m1jm"]
 
 [node name="StarterRoom" type="Node2D"]
 script = ExtResource("1_hytlw")
@@ -18,11 +20,14 @@ position = Vector2(573, 321)
 scale = Vector2(4, 4)
 texture = ExtResource("2_3dxns")
 
-[node name="TextureButton" type="TextureButton" parent="."]
-offset_left = 369.0
-offset_top = 248.0
-offset_right = 497.0
-offset_bottom = 376.0
+[node name="WindowButton" type="TextureButton" parent="."]
+offset_left = 433.0
+offset_top = 177.0
+offset_right = 535.0
+offset_bottom = 321.0
 texture_normal = ExtResource("4_jhg2j")
+texture_hover = ExtResource("5_6m1jm")
+texture_disabled = ExtResource("6_6m1jm")
+stretch_mode = 4
 
-[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="WindowButton" to="." method="_on_texture_button_pressed"]
