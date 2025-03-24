@@ -22,7 +22,7 @@ Jackson
 - Github Summary: 
 
 Richelle
-- 
+- Created the sliding puzzle puzzle.
 
 ## 2. Retrospective ##
 1. Appreciations: Everyone is making good use of github branches to keep things out of main.
@@ -42,4 +42,4 @@ Jackson
 - Start work on more tests for existing and future puzzles
 
 Richelle
-- worked on the sliding puzzle
+- Get the tiles in the sliding puzzle to actually move when clicked.
