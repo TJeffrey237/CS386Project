@@ -34,7 +34,10 @@ Pull Request 4:
 - Issue: [#21](https://github.com/TJeffrey237/CS386Project/issues/21)
 - Pull request:
 - Implemented by: Richelle Rouleau
-- 
+- Approved by:
+- Print Screen:
+- ![Sliding Puzzle](https://github.com/user-attachments/assets/a712d9e2-bfe8-483b-bb85-156e72d110da)
+
 
 # Tests #
 - Framework: GUT
