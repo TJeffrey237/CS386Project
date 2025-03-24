@@ -29,11 +29,13 @@ Pull Request 3:
 
 
 # Tests #
-- You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
-- Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-- Link to your GitHub folder where your automated unit tests are located.
-- An example of a test case. Include in your answer a GitHub link to the class being tested and to the test.
-- A print screen showing the result of the execution of the automated tests. 
+- Framework: GUT
+- Test Location:
+- Class being tested:
+- Test:
+- Print Screen:
+- ![image](https://github.com/user-attachments/assets/85713c1e-1d8e-4251-a855-8f257e3ab8c2)
+
 
 # Technology #
 [Godot-4.4](https://godotengine.org/) - Godot is a very lightweight and simple game engine that utilizes an easy-to-pick-up Node and Scene system. The engine also has support for GDScript, C#, and C++ languages as well as extensive documentation for the creation of 2D-oriented game development.
