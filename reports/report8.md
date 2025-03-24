@@ -38,7 +38,8 @@ Tyler
 - Start design for in-game menu settings
 
 Jackson 
-- 
+- Start work on additional puzzles
+- Start work on more tests for existing and future puzzles
 
 Richelle
 - 
