@@ -16,17 +16,18 @@ Pull Request 2:
 - Issue: [#1](https://github.com/TJeffrey237/CS386Project/issues/1)
 - Pull request: 
 - Implemented by: Tyler Jeffrey
-- Approved by: 
+- Approved by: Jackson Belzer 
 - Print screen:
+![Puzzle](https://github.com/user-attachments/assets/953a1e98-e1e0-49b8-8943-e254f0561506)
 
 Pull Request 3:
 - Requirement: As a player, I want to have a functioning menu screen so that I can choose when to start the game.
 - Issue: [#20](https://github.com/TJeffrey237/CS386Project/issues/20)
 - Pull request: 
 - Implemented by: Tyler Jeffrey
-- Approved by: 
+- Approved by: Jackson Belzer
 - Print screen: 
-
+![Menu](https://github.com/user-attachments/assets/f26c2e03-b293-4f90-9d2d-a4f6f356a03d)
 
 # Tests #
 - Framework: GUT
