@@ -2,10 +2,6 @@
 Provide a short paragraph that describes your system. This paragraph should contain the value proposition and a description of the main features of the software. At the end of the introduction, include a link to your project on GitHub.
 
 # Requirements #
-List in this section, the requirements and associated pull request that you implemented for this release, following the example below---include the description of the requirement, a link to the issue, a link to the pull request(s) that implement the requirement, who implemented the requirement, who approved it, and a print screen that depicts the implemented feature (if applicable). I expect that you implement the features you specified in your MVP (c.f. D.2 Requirements). 
-
-Order the requirements below by the name of the student who implemented them. All the members of the group should have worked on implementation activities and submitted pull requests. Only stable code should be included in the release. The code that is still under development should be in branches.
-
 Example 1:
 - Requirement: As a player, I want a jigsaw-type puzzle I can solve so that I can make progress in the game.
 - Issue: [#17](https://github.com/TJeffrey237/CS386Project/issues/17)
