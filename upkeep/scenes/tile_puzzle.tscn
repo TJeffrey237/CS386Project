@@ -9,6 +9,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5m1gu"]
 
 [sub_resource type="SystemFont" id="SystemFont_8ay3p"]
+subpixel_positioning = 0
 
 [node name="Tile Puzzle" type="Node2D"]
 script = ExtResource("1_sy1ui")

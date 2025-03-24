@@ -28,8 +28,9 @@ func check_completion():
 																	  "place_locations":  place_locations})
 	if completed:
 		finish_puzzle()
+		return true
 	
-	return
+	return false
 	
 func finish_puzzle():
 	var complete_label = get_node("Complete")

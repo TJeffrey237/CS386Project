@@ -13,6 +13,8 @@ func _input(event):
 	if event is InputEventMouseButton and not held:
 		var mouse_position = event.global_position - (Vector2(get_tree().root.size) / 2)
 		if DEBUG_MODE:
+			print(mouse_position)
+			print(self.position)
 			if event.pressed:
 				print("Mouse button is pressed.")
 			if event.button_index == MOUSE_BUTTON_LEFT:
