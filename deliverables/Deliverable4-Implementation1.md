@@ -29,6 +29,13 @@ Pull Request 3:
 - Print screen: 
 ![Menu](https://github.com/user-attachments/assets/f26c2e03-b293-4f90-9d2d-a4f6f356a03d)
 
+Pull Request 4:
+- Requirement: As a player, I want to have a sliding puzzle.
+- Issue: [#21](https://github.com/TJeffrey237/CS386Project/issues/21)
+- Pull request:
+- Implemented by: Richelle Rouleau
+- 
+
 # Tests #
 - Framework: GUT
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
