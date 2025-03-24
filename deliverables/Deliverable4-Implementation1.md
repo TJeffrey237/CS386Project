@@ -6,13 +6,21 @@ List in this section, the requirements and associated pull request that you impl
 
 Order the requirements below by the name of the student who implemented them. All the members of the group should have worked on implementation activities and submitted pull requests. Only stable code should be included in the release. The code that is still under development should be in branches.
 
-Example:
+Example 1:
 - Requirement: As a player, I want a jigsaw-type puzzle I can solve so that I can make progress in the game.
 - Issue: [#17](https://github.com/TJeffrey237/CS386Project/issues/17)
 - Pull request: 
 - Implemented by: Jackson Belzer
 - Approved by: 
 - Print screen: ![image](https://github.com/user-attachments/assets/0cb3ba98-5317-4059-af15-2c43172b816c)
+
+Example 2:
+- Requirement: As a developer, I want to design creative assets so that I can make the game visually appealing.
+- Issue: [#1](https://github.com/TJeffrey237/CS386Project/issues/1)
+- Pull request: 
+- Implemented by: Tyler Jeffrey
+- Approved by: 
+- Print screen: 
 
 
 # Tests #
