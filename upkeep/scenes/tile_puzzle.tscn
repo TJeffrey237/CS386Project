@@ -36,7 +36,7 @@ position = Vector2(-441, -203)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(-168.5, -171.2)])
+valid_locations = Array[Vector2]([Vector2(-168, -171)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 1"]
@@ -50,13 +50,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 1"]
 texture = ExtResource("4_58mt0")
+offset = Vector2(-0.5, -0.2)
 
 [node name="Piece 2" type="StaticBody2D" parent="."]
 position = Vector2(435, -152)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(16.35, 2.75)])
+valid_locations = Array[Vector2]([Vector2(16, 2)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 2"]
@@ -71,13 +72,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 2"]
 texture = ExtResource("5_ufunp")
+offset = Vector2(0.35, 0.75)
 
 [node name="Piece 3" type="StaticBody2D" parent="."]
-position = Vector2(-410, -44)
+position = Vector2(-410, -14)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(168.53, 162.5)])
+valid_locations = Array[Vector2]([Vector2(168, 162)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 3"]
@@ -91,6 +93,7 @@ color = Color(1, 0, 1, 1)
 polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 3"]
+position = Vector2(0.53, 0.5)
 texture = ExtResource("6_53jq6")
 
 [node name="Piece 4" type="StaticBody2D" parent="."]
@@ -98,7 +101,7 @@ position = Vector2(-486, 58)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(27.2, 180.7)])
+valid_locations = Array[Vector2]([Vector2(27, 180)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 4"]
@@ -113,13 +116,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 4"]
 texture = ExtResource("7_2d14u")
+offset = Vector2(0.2, 0.7)
 
 [node name="Piece 5" type="StaticBody2D" parent="."]
 position = Vector2(-422, 154)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(164.9, -26.25)])
+valid_locations = Array[Vector2]([Vector2(164, -26)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 5"]
@@ -134,13 +138,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 5"]
 texture = ExtResource("8_6scxu")
+offset = Vector2(0.9, -0.25)
 
 [node name="Piece 6" type="StaticBody2D" parent="."]
 position = Vector2(474, 67)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(-168.5, 10)])
+valid_locations = Array[Vector2]([Vector2(-168, 10)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 6"]
@@ -155,13 +160,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 6"]
 texture = ExtResource("9_1e2ie")
+offset = Vector2(0, -0.5)
 
 [node name="Piece 7" type="StaticBody2D" parent="."]
 position = Vector2(425, 223)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(-1.8, -157.7)])
+valid_locations = Array[Vector2]([Vector2(-1, -157)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 7"]
@@ -177,13 +183,14 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 [node name="Sprite2D" type="Sprite2D" parent="Piece 7"]
 position = Vector2(0, 0.137932)
 texture = ExtResource("10_g56c1")
+offset = Vector2(0.2, -0.1)
 
 [node name="Piece 8" type="StaticBody2D" parent="."]
-position = Vector2(-415, -153)
+position = Vector2(-415, -103)
 scale = Vector2(7.25, 7.25)
 physics_material_override = SubResource("PhysicsMaterial_y3jfp")
 script = ExtResource("2_8ay3p")
-valid_locations = Array[Vector2]([Vector2(168.6, -164)])
+valid_locations = Array[Vector2]([Vector2(168, -164)])
 lock_in_place = Array[bool]([false])
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 8"]
@@ -198,6 +205,7 @@ polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Piece 8"]
 texture = ExtResource("11_wnn2n")
+offset = Vector2(0.6, 0)
 
 [node name="Piece 9" type="StaticBody2D" parent="."]
 position = Vector2(428, -36)

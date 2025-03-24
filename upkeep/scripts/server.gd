@@ -140,8 +140,8 @@ func finalize_move(data):
 	if DEBUG_MODE:
 		print("New Position Post-Fix: ", new_position)
 
-	game_state[object_id].position = new_position
-	return {"Move Confirmed": true, "current_position": game_state[object_id].position, "placed": placed}
+	game_state[object_id].global_position = new_position
+	return {"Move Confirmed": true, "current_position": game_state[object_id].global_position, "placed": placed}
 	
 func collision_check(collision_shape1, collision_shape2):
 	var space = get_world_2d().direct_space_state
