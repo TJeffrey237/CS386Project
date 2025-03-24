@@ -1,9 +1,9 @@
 # Introduction #
 Upkeep is a 2D pixel art puzzle experience where players take on the role of a house renovator, selecting tasks and solving puzzles to restore a home for various owners. As an added aspect, players can also engage in small storylines related to each house that is slowly uncovered throughout the renovating process. This game is primarily designed for simplicity in all aspects of gameplay such as puzzle completion, menu navigation, and the art style.
-Repository Link: [Upkeep](https://github.com/TJeffrey237/CS386Project)
+- Repository: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Requirements #
-Example 1:
+Pull Request 1:
 - Requirement: As a player, I want a jigsaw-type puzzle I can solve so that I can make progress in the game.
 - Issue: [#17](https://github.com/TJeffrey237/CS386Project/issues/17)
 - Pull request: 
@@ -11,7 +11,7 @@ Example 1:
 - Approved by: 
 - Print screen: ![image](https://github.com/user-attachments/assets/0cb3ba98-5317-4059-af15-2c43172b816c)
 
-Example 2:
+Pull Request 2:
 - Requirement: As a developer, I want to design creative assets so that I can make the game visually appealing.
 - Issue: [#1](https://github.com/TJeffrey237/CS386Project/issues/1)
 - Pull request: 
@@ -19,7 +19,7 @@ Example 2:
 - Approved by: 
 - Print screen:
 
-Example 3:
+Pull Request 3:
 - Requirement: As a player, I want to have a functioning menu screen so that I can choose when to start the game.
 - Issue: [#20](https://github.com/TJeffrey237/CS386Project/issues/20)
 - Pull request: 
