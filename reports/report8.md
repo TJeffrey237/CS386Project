@@ -23,6 +23,7 @@ Jackson
 
 Richelle
 - Created the sliding puzzle puzzle.
+- Github Summary: 12 commits
 
 ## 2. Retrospective ##
 1. Appreciations: Everyone is making good use of github branches to keep things out of main.
