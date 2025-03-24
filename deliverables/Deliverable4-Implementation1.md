@@ -30,9 +30,9 @@ Pull Request 3:
 
 # Tests #
 - Framework: GUT
-- Test Location:
-- Class being tested:
-- Test:
+- Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
+- Class being tested: [Link](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scenes/jigsaw_test.tscn)
+- Test:[Link](https://github.com/TJeffrey237/CS386Project/blob/test-merge/upkeep/tests/test_jigsaw_solve.gd)
 - Print Screen:
 - ![image](https://github.com/user-attachments/assets/85713c1e-1d8e-4251-a855-8f257e3ab8c2)
 
