@@ -1,5 +1,5 @@
 # Upkeep #
-Upkeep is a 2D puzzle based house restoration game that involves players solving a series of puzzles in the place of actual renovation tasks in order to repair/clean houses for different owners.
+Upkeep is a 2D pixel art puzzle experience where players take on the role of a house renovator, selecting tasks and solving puzzles to restore a home for various owners. As an added aspect, players can also engage in small storylines related to each house that is slowly uncovered throughout the renovating process. This game is primarily designed for simplicity in all aspects of gameplay such as puzzle completion, menu navigation, and the art style.
 
 # Getting Started #
 **Prerequisites** 
