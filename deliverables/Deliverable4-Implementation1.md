@@ -70,4 +70,4 @@ For our UX design, we aimed to keep the game simple while staying true to our pr
 Looking at what we have released so far, there were a lot of issues we encountered throughout development. Moving into the future, coordinating our ideas for implementation will help to streamline the process and ensure that we all are on the same page when it comes to each idea we have. The biggest issue, however, is that we overestimated how much work we could achieve within the specified period which led to us being unable to implement some elements at the level of quality we wanted to. Essentially, communication is the main thing we hope to improve as we consider our next steps in terms of ideas, coding, and other areas of development.
 
 # Demo #
-Include a link to a video showing the system working.
+DEMO: [Video](https://youtu.be/YQwL-fYPEzc)
