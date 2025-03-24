@@ -1,5 +1,6 @@
 # Introduction #
-Provide a short paragraph that describes your system. This paragraph should contain the value proposition and a description of the main features of the software. At the end of the introduction, include a link to your project on GitHub.
+Upkeep is a 2D pixel art puzzle experience where players take on the role of a house renovator, selecting tasks and solving puzzles to restore a home for various owners. As an added aspect, players can also engage in small storylines related to each house that is slowly uncovered throughout the renovating process. This game is primarily designed for simplicity in all aspects of gameplay such as puzzle completion, menu navigation, and the art style.
+Repository Link: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Requirements #
 Example 1:
@@ -41,8 +42,6 @@ Example 3:
 
 [Pixelorama](https://orama-interactive.itch.io/pixelorama) - Pixel art multitool that allows us to create sprites, tiles, and animations. Has a very simpel UI design and has lots of support for autosaving, layers, export formats, and is fully free to utilize.
 
-
-
 # Deployment #
 This software is download only.
 
@@ -58,10 +57,12 @@ Link: [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/1f0ebd6c482d134
 - For licensing details: [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/1f0ebd6c482d134169931b3dded6944345594f44/LICENSE)
 
 # UX Design #
-For our UX design, we aimed to keep the game simple while staying true to our project’s theme. We focused on avoiding visual overload and overly complex tasks to create an intuitive and engaging experience. Our menu screen features a clean layout with distinctive navigation elements, ensuring ease of use. The in-game environment utilizes the same art style but also highlights objects that can be repaired when the user hovers over them so that it is easy to distinguish which tasks needed to be completed. For our puzzle, we wanted to start off very simple with the classic jigsaw experience in an environment that felt reasonably realistic despite our abstract design which resulted in a task that inolves repairing a broken window. 
-![Menu-Screen]()
-![Room-Highlight]()
-![Window-Puzzle]()
+For our UX design, we aimed to keep the game simple while staying true to our project’s theme. We focused on avoiding visual overload and overly complex tasks to create an intuitive and engaging experience. Our menu screen features a clean layout with distinctive navigation elements, ensuring ease of use. The in-game environment utilizes the same art style but also highlights objects that can be repaired when the user hovers over them so that it is easy to distinguish which tasks needed to be completed. For our puzzle, we wanted to start off very simple with the classic jigsaw experience in an environment that felt reasonably realistic despite our abstract design which resulted in a task that inolves repairing a broken window.
+
+![HighlightedWindow](https://github.com/user-attachments/assets/70ae7dd0-6b31-4a10-a9a4-1bc2b37107aa)
+![Menu](https://github.com/user-attachments/assets/f26c2e03-b293-4f90-9d2d-a4f6f356a03d)
+![Puzzle](https://github.com/user-attachments/assets/953a1e98-e1e0-49b8-8943-e254f0561506)
+
 
 # Lessons Learned #
 Looking at what we have released so far, there was a lot of issues we encountered throughout development. Moving into the future, coordinating our ideas for implementation will help to streamline the process and ensures that we all are on the same page when it comes to each idea we have. The biggest issue, however, is that we overestimated how much work we could achieve within the specified time period which led to us being unable to implement some elements at the level of quality we wanted to. Essentially, communication is the main thing we hope to improve as we consider our next steps in terms of ideas, coding, and other areas of development.
