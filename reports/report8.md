@@ -9,7 +9,7 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary ##
 Tyler
-- Created assets for tutorial room, main menu, and buttons
+- Created assets for tutorial room, main menu, buttons, and puzzles
 - Created & formatted deliverable 4 and report 8
 - Wrote sections 1, 4, 5, 6, 7, and 8 of deliverable 4
 - Github Summary: 
