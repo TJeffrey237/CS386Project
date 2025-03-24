@@ -7,12 +7,13 @@ List in this section, the requirements and associated pull request that you impl
 Order the requirements below by the name of the student who implemented them. All the members of the group should have worked on implementation activities and submitted pull requests. Only stable code should be included in the release. The code that is still under development should be in branches.
 
 Example:
-- Requirement: As a Student, I want to add a homework assignment so that I can organize my ToDo list.
-- Issue: <link to your GitHub issue>
-- Pull request: https://github.com/user/project/pull/426
-- Implemented by: Martin Fowler
-- Approved by: Ada Lovelace
-- Print screen: A print screen that depicts the implemented feature (if applicable)
+- Requirement: As a player, I want a jigsaw-type puzzle I can solve so that I can make progress in the game.
+- Issue: [#17](https://github.com/TJeffrey237/CS386Project/issues/17)
+- Pull request: 
+- Implemented by: Jackson Belzer
+- Approved by: 
+- Print screen: ![image](https://github.com/user-attachments/assets/0cb3ba98-5317-4059-af15-2c43172b816c)
+
 
 # Tests #
 - You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
