@@ -42,4 +42,4 @@ Jackson
 - Start work on more tests for existing and future puzzles
 
 Richelle
-- 
+- worked on the sliding puzzle
