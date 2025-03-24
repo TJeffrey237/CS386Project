@@ -20,6 +20,14 @@ Example 2:
 - Pull request: 
 - Implemented by: Tyler Jeffrey
 - Approved by: 
+- Print screen:
+
+Example 3:
+- Requirement: As a player, I want to have a functioning menu screen so that I can choose when to start the game.
+- Issue: [#20](https://github.com/TJeffrey237/CS386Project/issues/20)
+- Pull request: 
+- Implemented by: Tyler Jeffrey
+- Approved by: 
 - Print screen: 
 
 
