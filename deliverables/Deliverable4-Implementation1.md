@@ -38,7 +38,7 @@ Pull Request 3:
 # Technology #
 [Godot-4.4](https://godotengine.org/) - Godot is a very lightweight and simple game engine that utilizes an easy to pick up Node and Scene system. Engine also has support for GDScript, C#, and C++ languages as well as having extensive documentation for the creation of 2D oriented game development.
 
-[doctest](https://github.com/doctest/doctest) - Godot Engine allows to write unit tests directly in C++. The engine integrates the doctest unit testing framework which gives ability to write test suites and test cases next to production code.
+[GUT](https://github.com/bitwes/Gut) - Plugin for the Godot game engine that provides tools to write and run unit tests for your game scripts. It enables developers to verify the correctness of their code by writing automated tests in GDScript. Integrates directly into the Godot editor, offering a test runner interface where you can easily execute tests, view results, and debug issues.
 
 [Pixelorama](https://orama-interactive.itch.io/pixelorama) - Pixel art multitool that allows us to create sprites, tiles, and animations. Has a very simpel UI design and has lots of support for autosaving, layers, export formats, and is fully free to utilize.
 
