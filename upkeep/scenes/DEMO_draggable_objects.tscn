@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://g872etml3u44"]
 
-[ext_resource type="Script" path="res://scripts/draggable_object.gd" id="1_j2gyb"]
+[ext_resource type="Script" uid="uid://bvv8i3gusdf1y" path="res://scripts/draggable_object.gd" id="1_j2gyb"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_gmv70"]
 
