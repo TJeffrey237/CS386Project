@@ -6,24 +6,24 @@ Upkeep is a 2D-pixel art puzzle experience where players take on the role of a h
 Pull Request 1:
 - Requirement: As a player, I want a jigsaw-type puzzle I can solve so that I can make progress in the game.
 - Issue: [#17](https://github.com/TJeffrey237/CS386Project/issues/17)
-- Pull request: 
+- Pull request: [#25](https://github.com/TJeffrey237/CS386Project/pull/25)
 - Implemented by: Jackson Belzer
-- Approved by: 
+- Approved by: Richelle Rouleau
 - Print screen: ![image](https://github.com/user-attachments/assets/0cb3ba98-5317-4059-af15-2c43172b816c)
 
 Pull Request 2:
 - Requirement: As a developer, I want to design creative assets so that I can make the game visually appealing.
 - Issue: [#1](https://github.com/TJeffrey237/CS386Project/issues/1)
-- Pull request: 
+- Pull request: [#25](https://github.com/TJeffrey237/CS386Project/pull/25)
 - Implemented by: Tyler Jeffrey
-- Approved by: Jackson Belzer 
+- Approved by: Richelle Rouleau
 - Print screen:
 ![Puzzle](https://github.com/user-attachments/assets/953a1e98-e1e0-49b8-8943-e254f0561506)
 
 Pull Request 3:
 - Requirement: As a player, I want to have a functioning menu screen so that I can choose when to start the game.
 - Issue: [#20](https://github.com/TJeffrey237/CS386Project/issues/20)
-- Pull request: 
+- Pull request: [#22](https://github.com/TJeffrey237/CS386Project/pull/22)
 - Implemented by: Tyler Jeffrey
 - Approved by: Jackson Belzer
 - Print screen: 
@@ -32,9 +32,9 @@ Pull Request 3:
 Pull Request 24:
 - Requirement: As a player, I want to have a sliding puzzle.
 - Issue: [#21](https://github.com/TJeffrey237/CS386Project/issues/21)
-- Pull request:
+- Pull request: [#24](https://github.com/TJeffrey237/CS386Project/pull/24)
 - Implemented by: Richelle Rouleau
-- Approved by:
+- Approved by: Tyler Jeffrey
 - Print Screen:
 - ![Sliding Puzzle](https://github.com/user-attachments/assets/a712d9e2-bfe8-483b-bb85-156e72d110da)
 
@@ -42,7 +42,7 @@ Pull Request 24:
 - Framework: GUT
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
 - Class being tested: [Link](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scenes/jigsaw_test.tscn)
-- Test:[Link](https://github.com/TJeffrey237/CS386Project/blob/test-merge/upkeep/tests/test_jigsaw_solve.gd)
+- Test: [Link](https://github.com/TJeffrey237/CS386Project/blob/test-merge/upkeep/tests/test_jigsaw_solve.gd)
 - Print Screen:
 - ![image](https://github.com/user-attachments/assets/85713c1e-1d8e-4251-a855-8f257e3ab8c2)
 
