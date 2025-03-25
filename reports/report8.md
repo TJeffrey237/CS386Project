@@ -12,14 +12,14 @@ Tyler
 - Created assets for tutorial room, main menu, buttons, and puzzles
 - Created & formatted deliverable 4 and report 8
 - Wrote sections 1, 4, 5, 6, 7, and 8 of deliverable 4
-- Github Summary: 
+- Github Summary: 17 commits
 
 Jackson
 - Finished work on the Jigsaw puzzle functionality
 - Fixed previously overlooked bugs, like being able to get objects stuck behind another if completely obscured by a locked object
 - Wrote tests to run through the main functions of the game, like going through menus, or solving the puzzles
 - Wrote sections 2, 3, and 4 of deliverable 4
-- Github Summary: 
+- Github Summary: 9 commits
 
 Richelle
 - Created the sliding puzzle puzzle.
