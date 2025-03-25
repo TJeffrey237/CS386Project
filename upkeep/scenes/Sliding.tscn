@@ -1,0 +1,93 @@
+[gd_scene load_steps=19 format=3 uid="uid://2xkb4jkoy7fj"]
+
+[ext_resource type="Texture2D" uid="uid://cn7husxg42c8j" path="res://temparary_assets/tile1.png" id="1_m3af6"]
+[ext_resource type="Script" path="res://scenes/sliding.gd" id="1_nlux8"]
+[ext_resource type="Texture2D" uid="uid://dyedgy2kv6bui" path="res://temparary_assets/tile2.png" id="2_kgaj5"]
+[ext_resource type="Texture2D" uid="uid://cnwq1i6ss5mcg" path="res://temparary_assets/tile3.png" id="3_vhb28"]
+[ext_resource type="Texture2D" uid="uid://c7jkjnp4vu380" path="res://temparary_assets/tile4.png" id="4_eursc"]
+[ext_resource type="Texture2D" uid="uid://bpuhx5utlwrw5" path="res://temparary_assets/tile5.png" id="5_kh0q5"]
+[ext_resource type="Texture2D" uid="uid://cgqqgws75gtr4" path="res://temparary_assets/tile6.png" id="6_jb8gj"]
+[ext_resource type="Texture2D" uid="uid://b5vmudygsf363" path="res://temparary_assets/tile7.png" id="7_3p68j"]
+[ext_resource type="Texture2D" uid="uid://boagauu7mbalu" path="res://temparary_assets/tile8.png" id="8_q1nkv"]
+[ext_resource type="Texture2D" uid="uid://bym6ns23xk2uy" path="res://temparary_assets/tile9.png" id="9_f0hlt"]
+[ext_resource type="Texture2D" uid="uid://lhimkiloh7tg" path="res://temparary_assets/tile10.png" id="10_jnjyb"]
+[ext_resource type="Texture2D" uid="uid://yv28j6omt3xh" path="res://temparary_assets/tile11.png" id="11_hkxyw"]
+[ext_resource type="Texture2D" uid="uid://dsvys1e4ndyoy" path="res://temparary_assets/tile12.png" id="12_wqw1y"]
+[ext_resource type="Texture2D" uid="uid://b3k1i3auqb2" path="res://temparary_assets/tile13.png" id="13_t3yhr"]
+[ext_resource type="Texture2D" uid="uid://pp3na2b0f6tg" path="res://temparary_assets/tile14.png" id="14_oi5y1"]
+[ext_resource type="Texture2D" uid="uid://b48xoi2yl25kc" path="res://temparary_assets/tile15.png" id="15_gvh3n"]
+[ext_resource type="Texture2D" uid="uid://rt1hr8f6l6i8" path="res://temparary_assets/tile16.png" id="16_0tib8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_umfk4"]
+size = Vector2(500, 500)
+
+[node name="Sliding" type="Area2D"]
+script = ExtResource("1_nlux8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(250, 250)
+shape = SubResource("RectangleShape2D_umfk4")
+
+[node name="tile" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-187, -187)
+texture = ExtResource("1_m3af6")
+
+[node name="tile2" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-62, -187)
+texture = ExtResource("2_kgaj5")
+
+[node name="tile3" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(63, -187)
+texture = ExtResource("3_vhb28")
+
+[node name="tile4" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(188, -187)
+texture = ExtResource("4_eursc")
+
+[node name="tile5" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-187, -62)
+texture = ExtResource("5_kh0q5")
+
+[node name="tile6" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-62, -62)
+texture = ExtResource("6_jb8gj")
+
+[node name="tile7" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(62, -62)
+texture = ExtResource("7_3p68j")
+
+[node name="tile8" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(187, -62)
+texture = ExtResource("8_q1nkv")
+
+[node name="tile9" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-187, 62)
+texture = ExtResource("9_f0hlt")
+
+[node name="tile10" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-62, 62)
+texture = ExtResource("10_jnjyb")
+
+[node name="tile11" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(62, 62)
+texture = ExtResource("11_hkxyw")
+
+[node name="tile12" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(187, 62)
+texture = ExtResource("12_wqw1y")
+
+[node name="tile13" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-187, 187)
+texture = ExtResource("13_t3yhr")
+
+[node name="tile14" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(-62, 187)
+texture = ExtResource("14_oi5y1")
+
+[node name="tile15" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(62, 187)
+texture = ExtResource("15_gvh3n")
+
+[node name="tile16" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(187, 187)
+texture = ExtResource("16_0tib8")
