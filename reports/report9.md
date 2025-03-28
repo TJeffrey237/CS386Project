@@ -29,7 +29,9 @@ Richelle
 
 ## 3. Next Steps ##
 Tyler
-- empty
+- Continue working on deliverable 5
+- Create art for sliding puzzle & room as needed
+- 
 
 Jackson 
 - empty
