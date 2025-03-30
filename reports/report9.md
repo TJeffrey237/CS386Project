@@ -9,8 +9,9 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary ##
 Tyler
-- empty
-- Github Summary: 
+- Created and formatted deliverable 5
+- Started creating updated class diagrams for design patterns
+- Github Summary: 16 commits
 
 Jackson
 - empty
@@ -31,7 +32,6 @@ Richelle
 Tyler
 - Continue working on deliverable 5
 - Create art for sliding puzzle & room as needed
-- 
 
 Jackson 
 - empty
