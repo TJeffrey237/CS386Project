@@ -31,6 +31,7 @@ func _process(delta):
 		click = false
 		var rows = int(click_copy.position.y / 125)
 		var cols = int(click_copy.position.x / 125)
+		print("Rows: ", rows, " Cols: ", cols)
 		check_empty(rows, cols)
 		if tiles == solved:
 			print("You win!")
@@ -39,32 +40,27 @@ func check_empty(rows, cols):
 	var empty = false
 	var done = false
 	var pos = rows * 4 + cols
-	while !empty and !done:
+	print("Position: ", pos)
+	while not empty and not done:
 		var new_pos = tiles[pos].position
+		print("New Position (pre-swap): ", new_pos)
 		if rows < 3:
-			new_pos.y += 125
-			empty = find_empty(new_pos, pos)
-			new_pos.y -= 125
+			empty = find_empty(rows + 1, cols, rows, cols)
 		if rows > 0:
-			new_pos.y -= 125
-			empty = find_empty(new_pos, pos)
-			new_pos.y += 125
+			empty = find_empty(rows - 1, cols, rows, cols)
 		if cols < 3:
-			new_pos.x += 125
-			empty = find_empty(new_pos, pos)
-			new_pos.x -= 125
+			empty = find_empty(rows, cols + 1, rows, cols)
 		if cols > 0:
-			new_pos.x -= 125
-			empty = find_empty(new_pos, pos)
-			new_pos.x += 125
+			empty = find_empty(rows, cols - 1, rows, cols)
+		print("New Position (post-swap): ", new_pos)
 		done = true
 
-func find_empty(position, pos):
-	var new_rows = int(position.y / 125)
-	var new_cols = int(position.x / 125)
+func find_empty(new_rows, new_cols, rows, cols):
+	print("New Rows: ", new_rows, " New Cols: ", new_cols)
 	var new_pos = new_rows * 4 + new_cols
+	var old_pos = rows * 4 + cols
 	if tiles[new_pos] == $CollisionShape2D/tile16:
-		swap(pos, new_pos)
+		swap(old_pos, new_pos)
 		return true
 	else:
 		return false
