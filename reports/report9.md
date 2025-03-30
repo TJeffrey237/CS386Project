@@ -14,8 +14,9 @@ Tyler
 - Github Summary: 16 commits
 
 Jackson
-- empty
-- Github Summary: 
+- Fixed bug that was stopping sliding puzzle from functioning properly
+- Created pull request #29 to merge changes
+- Github Summary: 2 Commits
 
 Richelle
 - empty
@@ -34,7 +35,9 @@ Tyler
 - Create art for sliding puzzle & room as needed
 
 Jackson 
-- empty
+- Continue work on deliverable 5
+- Work on implementing new puzzles
+- 
 
 Richelle
 - empty
