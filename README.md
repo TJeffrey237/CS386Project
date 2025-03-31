@@ -42,7 +42,7 @@ This software is download only.
 [Pixelorama](https://orama-interactive.itch.io/pixelorama) - Pixel art multitool that allows us to create sprites, tiles, and animations. Has a very simple UI design has lots of support for autosaving, layers, and export formats, and is fully free to utilize.
 
 # Contributing #
-For information about contributing to this project see [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/2407f451139faed0eadceed1c8bdf65719e0991b/CONTRIBUTING.md).
+For information about contributing to this project see [CONTRIBUTING.md](https://github.com/TJeffrey237/CS386Project/blob/main/CONTRIBUTING.md).
 
 # Versioning #
 We use [SemVer](https://semver.org/) for versioning. To see available versions, look at the tags on this repository.
@@ -53,4 +53,4 @@ We use [SemVer](https://semver.org/) for versioning. To see available versions, 
 - Richelle Rouleau
 
 # License #
-This software is licensed under the MIT license - see [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/deliverable4/LICENSE) for details.
+This software is licensed under the MIT license - see [LICENSE](https://github.com/TJeffrey237/CS386Project/blob/main/LICENSE) for details.
