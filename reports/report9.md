@@ -19,7 +19,7 @@ Jackson
 - Github Summary: 9 Commits
 
 Richelle
-- Created the semi working sliding puzzle that has a miner bug.
+- Created the semi working sliding puzzle that has a minor bug
 - Github Summary: 8
 
 ## 2. Retrospective ##
@@ -39,5 +39,5 @@ Jackson
 - Work on implementing new puzzles
 
 Richelle
-- Started work on the movement puzzle.
+- Started work on the movement puzzle
 - Continue work on deliverable 5
