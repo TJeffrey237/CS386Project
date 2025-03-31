@@ -1,28 +1,28 @@
 [gd_scene load_steps=19 format=3 uid="uid://2xkb4jkoy7fj"]
 
-[ext_resource type="Texture2D" uid="uid://cn7husxg42c8j" path="res://temparary_assets/tile1.png" id="1_m3af6"]
-[ext_resource type="Script" path="res://scenes/sliding.gd" id="1_nlux8"]
-[ext_resource type="Texture2D" uid="uid://dyedgy2kv6bui" path="res://temparary_assets/tile2.png" id="2_kgaj5"]
-[ext_resource type="Texture2D" uid="uid://cnwq1i6ss5mcg" path="res://temparary_assets/tile3.png" id="3_vhb28"]
-[ext_resource type="Texture2D" uid="uid://c7jkjnp4vu380" path="res://temparary_assets/tile4.png" id="4_eursc"]
-[ext_resource type="Texture2D" uid="uid://bpuhx5utlwrw5" path="res://temparary_assets/tile5.png" id="5_kh0q5"]
-[ext_resource type="Texture2D" uid="uid://cgqqgws75gtr4" path="res://temparary_assets/tile6.png" id="6_jb8gj"]
-[ext_resource type="Texture2D" uid="uid://b5vmudygsf363" path="res://temparary_assets/tile7.png" id="7_3p68j"]
-[ext_resource type="Texture2D" uid="uid://boagauu7mbalu" path="res://temparary_assets/tile8.png" id="8_q1nkv"]
-[ext_resource type="Texture2D" uid="uid://bym6ns23xk2uy" path="res://temparary_assets/tile9.png" id="9_f0hlt"]
-[ext_resource type="Texture2D" uid="uid://lhimkiloh7tg" path="res://temparary_assets/tile10.png" id="10_jnjyb"]
-[ext_resource type="Texture2D" uid="uid://yv28j6omt3xh" path="res://temparary_assets/tile11.png" id="11_hkxyw"]
-[ext_resource type="Texture2D" uid="uid://dsvys1e4ndyoy" path="res://temparary_assets/tile12.png" id="12_wqw1y"]
-[ext_resource type="Texture2D" uid="uid://b3k1i3auqb2" path="res://temparary_assets/tile13.png" id="13_t3yhr"]
-[ext_resource type="Texture2D" uid="uid://pp3na2b0f6tg" path="res://temparary_assets/tile14.png" id="14_oi5y1"]
-[ext_resource type="Texture2D" uid="uid://b48xoi2yl25kc" path="res://temparary_assets/tile15.png" id="15_gvh3n"]
-[ext_resource type="Texture2D" uid="uid://rt1hr8f6l6i8" path="res://temparary_assets/tile16.png" id="16_0tib8"]
+[ext_resource type="Script" uid="uid://b5e2bfa6yih7x" path="res://scripts/sliding.gd" id="1_cfpke"]
+[ext_resource type="Texture2D" uid="uid://ckkemkwpcedd2" path="res://temparary_assets/tile1.png" id="1_m3af6"]
+[ext_resource type="Texture2D" uid="uid://c7rnh2yqcqa5a" path="res://temparary_assets/tile2.png" id="2_kgaj5"]
+[ext_resource type="Texture2D" uid="uid://cuaefwmbu4cpl" path="res://temparary_assets/tile3.png" id="3_vhb28"]
+[ext_resource type="Texture2D" uid="uid://dhendk4qnoei8" path="res://temparary_assets/tile4.png" id="4_eursc"]
+[ext_resource type="Texture2D" uid="uid://k072gbgn8wcy" path="res://temparary_assets/tile5.png" id="5_kh0q5"]
+[ext_resource type="Texture2D" uid="uid://dhooxw7unxkdl" path="res://temparary_assets/tile6.png" id="6_jb8gj"]
+[ext_resource type="Texture2D" uid="uid://g4ghbtgqag6m" path="res://temparary_assets/tile7.png" id="7_3p68j"]
+[ext_resource type="Texture2D" uid="uid://byoh3vgtf7w4u" path="res://temparary_assets/tile8.png" id="8_q1nkv"]
+[ext_resource type="Texture2D" uid="uid://wghh75q1ota1" path="res://temparary_assets/tile9.png" id="9_f0hlt"]
+[ext_resource type="Texture2D" uid="uid://q1cgl2px6hay" path="res://temparary_assets/tile10.png" id="10_jnjyb"]
+[ext_resource type="Texture2D" uid="uid://cglk5ehv5xgi6" path="res://temparary_assets/tile11.png" id="11_hkxyw"]
+[ext_resource type="Texture2D" uid="uid://rvqjvwjhx0o6" path="res://temparary_assets/tile12.png" id="12_wqw1y"]
+[ext_resource type="Texture2D" uid="uid://xr00grv35hbh" path="res://temparary_assets/tile13.png" id="13_t3yhr"]
+[ext_resource type="Texture2D" uid="uid://5ntqct20ifau" path="res://temparary_assets/tile14.png" id="14_oi5y1"]
+[ext_resource type="Texture2D" uid="uid://q52nkfe8tsgs" path="res://temparary_assets/tile15.png" id="15_gvh3n"]
+[ext_resource type="Texture2D" uid="uid://b4mjegui7ut8k" path="res://temparary_assets/tile16.png" id="16_0tib8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_umfk4"]
 size = Vector2(500, 500)
 
 [node name="Sliding" type="Area2D"]
-script = ExtResource("1_nlux8")
+script = ExtResource("1_cfpke")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(250, 250)
