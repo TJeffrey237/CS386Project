@@ -37,7 +37,6 @@ Tyler
 Jackson 
 - Continue work on deliverable 5
 - Work on implementing new puzzles
-- 
 
 Richelle
 - empty
