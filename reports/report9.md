@@ -23,11 +23,11 @@ Richelle
 - Github Summary: 
 
 ## 2. Retrospective ##
-1. Appreciations: 
-2. Successes: 
-3. Failures: 
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciations: Issues with code were resolved.
+2. Successes: Delegated tasks for deliverable 5.
+3. Failures: Didn't talk too much about having consistent coding conventions.
+4. Barriers: Other coursework.
+5. What we should try next time: Focus on new implementations.
 
 ## 3. Next Steps ##
 Tyler
