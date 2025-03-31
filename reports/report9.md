@@ -16,7 +16,7 @@ Tyler
 Jackson
 - Fixed bug that was stopping sliding puzzle from functioning properly
 - Created pull request #29 to merge changes
-- Github Summary: 2 Commits
+- Github Summary: 9 Commits
 
 Richelle
 - empty
