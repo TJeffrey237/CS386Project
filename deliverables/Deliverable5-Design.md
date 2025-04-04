@@ -12,7 +12,7 @@ The difference between this class diagram and the one that you presented in D.3 
 # Sequence Diagrams #
 Present a sequence diagramLinks to an external site. that represents how the objects in your system interact for a specific use case. Also include the use case's description in this section. The sequence diagram should be consistent with the class diagram and architecture. 
 
-# Design Patterns - Tyler #
+# Design Patterns #
 ## Section 1 ##
 Split this section into 2 subsections. For each subsection, present a UML class diagram showing the application of a design patternLinks to an external site. to your system (a different pattern for each section). Each class diagram should contain only the classes involved in the specific pattern (you don’t need to represent the whole system). Choose patterns from two different categories: Behavioral, Structural, and Creational. You are not limited to design patterns studied in class. 
 
@@ -23,5 +23,5 @@ Implement each design pattern in your system and provide GitHub links to the cor
 ## Section 2 ##
 ...
 
-# Design Principles  - Tyler #
+# Design Principles #
 How does your design observe the SOLID principles? Provide a short description of followed principles giving concrete examples from your classes. 
