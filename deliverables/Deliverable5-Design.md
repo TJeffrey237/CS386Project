@@ -2,7 +2,7 @@
 Provide 1-2 paragraphs to describe your system. This will help understand the context of your design decisions. You can reuse and update text from the previous deliverables.
 
 # Architecture #
-The architecture for upkeep is designed to have organization between the scrips, scenes, and assets. Here we have separated the three categories into their own directories and sub-directories to help define the relationship and function of each folder or package. We wanted to adopt a client-server architecture for this project as well such that clients are able to send requests through scenes to the different types of scripts.
+The architecture for upkeep is designed to have organization between the scrips, scenes, and assets. Here we have separated the three categories into their own directories and sub-directories to help define the relationship and function of each folder or package. We wanted to adopt a client-server architecture for this project as well such that clients are able to send requests through scenes to the different types of server-side scripts that will update the game state.
 
 ![Package drawio](https://github.com/user-attachments/assets/68508820-9940-46f9-bfab-d060c366e879)
 
