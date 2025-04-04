@@ -2,7 +2,7 @@
 Provide 1-2 paragraphs to describe your system. This will help understand the context of your design decisions. You can reuse and update text from the previous deliverables.
 
 # Architecture #
-Present a diagram of the high-level architectureLinks to an external site. of your system. Use a UML package diagram to describe the main modules and how they interrelate.
+![Package drawio](https://github.com/user-attachments/assets/68508820-9940-46f9-bfab-d060c366e879)
 
 # Class Diagrams #
 Present a refined class diagram of your system, including implementation details such as visibilities, attributes to represent associations, attribute types, return types, parameters, etc. The class diagram should match the code you have produced so far, but not be limited to it (e.g., it can contain classes not implemented yet). 
@@ -38,7 +38,10 @@ Your system may not be appropriate for any design pattern. In this case, for did
 Implement each design pattern in your system and provide GitHub links to the corresponding classes.
 
 ## Section 2 ##
-...
+Singleton design pattern from the Creational category.
+- Server: [Link to server class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/server.gd)
+
+![Singleton](https://github.com/user-attachments/assets/aec90c8e-3546-47b9-ba41-2a86826816cb)
 
 # Design Principles #
 How does your design observe the SOLID principles? Provide a short description of followed principles giving concrete examples from your classes. 
