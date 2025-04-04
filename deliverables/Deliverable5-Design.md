@@ -47,3 +47,6 @@ Singleton design pattern from the Creational category.
 
 # Design Principles #
 How does your design observe the SOLID principles? Provide a short description of followed principles giving concrete examples from your classes. 
+Single Responsibility Principle: In our [object.gd] script, we are following the single responsibility principle by 
+Open/Closed Princple:
+Interface Segregation Principle: 
