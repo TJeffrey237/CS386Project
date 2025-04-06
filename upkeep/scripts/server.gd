@@ -72,7 +72,7 @@ func find_top_object(data):
 	for object in object_z_map.keys():
 		for overlap_object_id in overlapping_objects:
 			if game_state[overlap_object_id] == game_state[object]:
-				if game_state[object].z_index > current_max_z:
+				if game_state[object].z_index > current_max_z and game_state[object].moveable:
 					top_most_object = overlap_object_id
 					current_max_z = game_state[object].z_index
 	return top_most_object
@@ -108,6 +108,7 @@ func finalize_move(data):
 		print("Bottom Edge: ", bottom_edge)
 		print("New Position Pre-Fix: ", new_position)
 	
+	var placed = false
 	if data["placeable"]:
 		if DEBUG_MODE:
 			print("Object is placeable.")
@@ -116,6 +117,7 @@ func finalize_move(data):
 				var given_collision = given_object.get_child(0)
 				var location_collision = location_object.get_child(0)
 				if collision_check(given_collision, location_collision):
+					placed = true
 					if DEBUG_MODE:
 						print("Object intersects place location.")
 						print("Current object location: ", given_object.position)
@@ -138,8 +140,8 @@ func finalize_move(data):
 	if DEBUG_MODE:
 		print("New Position Post-Fix: ", new_position)
 
-	game_state[object_id].position = new_position
-	return {"Move Confirmed": true, "current_position": game_state[object_id].position}
+	game_state[object_id].global_position = new_position
+	return {"Move Confirmed": true, "current_position": game_state[object_id].global_position, "placed": placed}
 	
 func collision_check(collision_shape1, collision_shape2):
 	var space = get_world_2d().direct_space_state
@@ -181,10 +183,18 @@ func create_place_locations(data):
 		given_object.get_parent().add_child.call_deferred(copied_object)
 
 func check_jigsaw_completion(data):
-	var objects = data["objects"]
 	var filled_locations = data["filled_locations"]
-	var given_valid_locations = data["valid_locations"]
-	for location in given_valid_locations:
-		if not location in filled_locations:
+	var given_place_locations = data["place_locations"]
+	for location in given_place_locations:
+		if not location in filled_locations.keys():
+			if DEBUG_MODE:
+				print("Jigsaw not complete.")
 			return false
+		else:
+			if location not in filled_locations[location].valid_locations:
+				if DEBUG_MODE:
+					print("Jigsaw not complete. (Location match, but not right piece)")
+				return false
+	if DEBUG_MODE:
+		print("Jigsaw complete.")
 	return true

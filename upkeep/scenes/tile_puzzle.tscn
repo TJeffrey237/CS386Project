@@ -1,0 +1,257 @@
+[gd_scene load_steps=17 format=3 uid="uid://b4bhuq144bdir"]
+
+[ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_sy1ui"]
+[ext_resource type="Texture2D" uid="uid://d7iwplv6ehis" path="res://assets/sprites/WindowJigsawBackground.png" id="2_5m1gu"]
+[ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="2_8ay3p"]
+[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_y3jfp"]
+[ext_resource type="Texture2D" uid="uid://bi6csk0qi1k34" path="res://assets/sprites/WindowPieces/Piece1.png" id="4_58mt0"]
+[ext_resource type="Texture2D" uid="uid://cin4ss3sqeh46" path="res://assets/sprites/WindowPieces/Piece5.png" id="5_ufunp"]
+[ext_resource type="Texture2D" uid="uid://hubf7spu17gw" path="res://assets/sprites/WindowPieces/Piece9.png" id="6_53jq6"]
+[ext_resource type="Texture2D" uid="uid://71t3dwdb50aw" path="res://assets/sprites/WindowPieces/Piece8.png" id="7_2d14u"]
+[ext_resource type="Texture2D" uid="uid://o8wd4sam6oym" path="res://assets/sprites/WindowPieces/Piece6.png" id="8_6scxu"]
+[ext_resource type="Texture2D" uid="uid://dn3hwmonxsnb7" path="res://assets/sprites/WindowPieces/Piece4.png" id="9_1e2ie"]
+[ext_resource type="Texture2D" uid="uid://f5gl2dx57crm" path="res://assets/sprites/WindowPieces/Piece2.png" id="10_g56c1"]
+[ext_resource type="Texture2D" uid="uid://vwlphfv6kxmy" path="res://assets/sprites/WindowPieces/Piece3.png" id="11_wnn2n"]
+[ext_resource type="Texture2D" uid="uid://c0brs2wcrtypx" path="res://assets/sprites/WindowPieces/Piece7.png" id="12_cpxg1"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_y3jfp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5m1gu"]
+
+[sub_resource type="SystemFont" id="SystemFont_8ay3p"]
+subpixel_positioning = 0
+
+[node name="Tile Puzzle" type="Node2D"]
+script = ExtResource("1_sy1ui")
+
+[node name="WindowJigsawBackground" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(7.2, 7.2)
+texture = ExtResource("2_5m1gu")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Piece 1" type="StaticBody2D" parent="."]
+position = Vector2(-441, -203)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-168, -171)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 1"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 1"]
+visible = false
+position = Vector2(10, 10)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 1"]
+texture = ExtResource("4_58mt0")
+offset = Vector2(-0.5, -0.2)
+
+[node name="Piece 2" type="StaticBody2D" parent="."]
+position = Vector2(435, -152)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(16, 2)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 2"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 2"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0, 1, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 2"]
+texture = ExtResource("5_ufunp")
+offset = Vector2(0.35, 0.75)
+
+[node name="Piece 3" type="StaticBody2D" parent="."]
+position = Vector2(-410, -14)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(168, 162)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 3"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 3"]
+visible = false
+position = Vector2(10, 10)
+color = Color(1, 0, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 3"]
+position = Vector2(0.53, 0.5)
+texture = ExtResource("6_53jq6")
+
+[node name="Piece 4" type="StaticBody2D" parent="."]
+position = Vector2(-486, 58)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(27, 180)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 4"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 4"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0.35693, 0.636434, 0.949949, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 4"]
+texture = ExtResource("7_2d14u")
+offset = Vector2(0.2, 0.7)
+
+[node name="Piece 5" type="StaticBody2D" parent="."]
+position = Vector2(-422, 154)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(164, -26)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 5"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 5"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0.900744, 0.500606, 0.298123, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 5"]
+texture = ExtResource("8_6scxu")
+offset = Vector2(0.9, -0.25)
+
+[node name="Piece 6" type="StaticBody2D" parent="."]
+position = Vector2(474, 67)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-168, 10)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 6"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 6"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0.344671, 0.721594, 0.334916, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 6"]
+texture = ExtResource("9_1e2ie")
+offset = Vector2(0, -0.5)
+
+[node name="Piece 7" type="StaticBody2D" parent="."]
+position = Vector2(425, 223)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-1, -157)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 7"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 7"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0.575395, 0.559035, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 7"]
+position = Vector2(0, 0.137932)
+texture = ExtResource("10_g56c1")
+offset = Vector2(0.2, -0.1)
+
+[node name="Piece 8" type="StaticBody2D" parent="."]
+position = Vector2(-415, -103)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(168, -164)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 8"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 8"]
+visible = false
+position = Vector2(10, 10)
+color = Color(0.670582, 0.642704, 0, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 8"]
+texture = ExtResource("11_wnn2n")
+offset = Vector2(0.6, 0)
+
+[node name="Piece 9" type="StaticBody2D" parent="."]
+position = Vector2(428, -36)
+scale = Vector2(7.25, 7.25)
+physics_material_override = SubResource("PhysicsMaterial_y3jfp")
+script = ExtResource("2_8ay3p")
+valid_locations = Array[Vector2]([Vector2(-154, 177)])
+lock_in_place = Array[bool]([false])
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Piece 9"]
+visible = false
+shape = SubResource("RectangleShape2D_5m1gu")
+
+[node name="Polygon2D" type="Polygon2D" parent="Piece 9"]
+visible = false
+position = Vector2(10, 10)
+color = Color(1, 0.403918, 0.295259, 1)
+polygon = PackedVector2Array(0, 0, 0, -20, -20, -20, -20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Piece 9"]
+texture = ExtResource("12_cpxg1")
+
+[node name="Complete" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+visible = false
+modulate = Color(0, 0.998981, 0, 1)
+z_index = 1001
+offset_left = -500.0
+offset_top = -68.0
+offset_right = 499.0
+offset_bottom = 69.0
+theme_override_fonts/normal_font = SubResource("SystemFont_8ay3p")
+theme_override_font_sizes/normal_font_size = 100
+text = "Completed"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Exit" type="TextureButton" parent="."]
+visible = false
+offset_left = 325.0
+offset_top = -275.0
+offset_right = 525.0
+offset_bottom = -200.0
+size_flags_vertical = 3
+texture_normal = ExtResource("3_y3jfp")
+stretch_mode = 4
+
+[connection signal="pressed" from="Exit" to="." method="_on_exit_button_pressed"]
