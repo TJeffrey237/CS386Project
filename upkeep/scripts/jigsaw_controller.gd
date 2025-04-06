@@ -3,6 +3,7 @@ extends Node2D
 var pieces = []
 var place_locations = []
 var DEBUG_MODE = Server.DEBUG_MODE
+signal exit_pressed
 
 func _ready() -> void:
 	pass
@@ -43,4 +44,5 @@ func _on_exit_button_pressed():
 		print("Exit signal received.")
 	var exit_button = get_node("Exit")
 	if exit_button.visible:
-		get_tree().change_scene_to_file("res://scenes/starter_room.tscn")
+		emit_signal("exit_pressed")
+		queue_free()
