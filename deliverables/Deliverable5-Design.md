@@ -1,5 +1,6 @@
 # Description #
-Provide 1-2 paragraphs to describe your system. This will help understand the context of your design decisions. You can reuse and update text from the previous deliverables.
+Upkeep is a 2D pixel art puzzle game that places players in the role of a house renovator. The core gameplay involves selecting renovation tasks and solving environment-based puzzles to restore homes for a variety of homeowners. With each house comes a unique set of puzzles and light storylines that are gradually revealed as the player progresses through the renovation process. Upkeep also emphasizes simplicity across all design aspects, including puzzle mechanics, user interface, and visual presentation. This approach allows for a greater range of accessibility between users while also engaging them in a simple and relaxing gameplay experience.
+
 
 # Architecture #
 The architecture for upkeep is designed to have organization between the scrips, scenes, and assets. Here we have separated the three categories into their own directories and sub-directories to help define the relationship and function of each folder or package. We wanted to adopt a client-server architecture for this project as well such that clients are able to send requests through scenes to the different types of server-side scripts that will update the game state.
