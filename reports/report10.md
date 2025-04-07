@@ -19,8 +19,8 @@ Jackson
 - Github Summary: x Commits
 
 Richelle
-- .
-- Github Summary: x Commits
+- Continue to work on the movement puzzle moving in the particular ways is working
+- Github Summary: 2 Commits
 
 ## 2. Retrospective ##
 1. Appreciations: Did good work for the deliverable.
@@ -40,4 +40,4 @@ Jackson
 - .
 
 Richelle
-- .
+- Make it so that in the movement puzzle the player may interact with an item.
