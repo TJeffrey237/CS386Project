@@ -1,7 +1,6 @@
 # Description #
 Upkeep is a 2D pixel art puzzle game that places players in the role of a house renovator. The core gameplay involves selecting renovation tasks and solving environment-based puzzles to restore homes for a variety of homeowners. With each house comes a unique set of puzzles and light storylines that are gradually revealed as the player progresses through the renovation process. Upkeep also emphasizes simplicity across all design aspects, including puzzle mechanics, user interface, and visual presentation. This approach allows for a greater range of accessibility between users while also engaging them in a simple and relaxing gameplay experience.
 
-
 # Architecture #
 The architecture for upkeep is designed to have organization between the scrips, scenes, and assets. Here we have separated the three categories into their own directories and sub-directories to help define the relationship and function of each folder or package. We wanted to adopt a client-server architecture for this project as well such that clients are able to send requests through scenes to the different types of server-side scripts that will update the game state.
 
@@ -47,7 +46,8 @@ Singleton design pattern from the Creational category.
 ![Singleton](https://github.com/user-attachments/assets/aec90c8e-3546-47b9-ba41-2a86826816cb)
 
 # Design Principles #
-How does your design observe the SOLID principles? Provide a short description of followed principles giving concrete examples from your classes. 
-Single Responsibility Principle: In our [object.gd] script, we are following the single responsibility principle by 
-Open/Closed Princple:
-Interface Segregation Principle: 
+**Single Responsibility Principle:** In our [placeable_object.gd](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/placeable_object.gd) script, we are following the single responsibility principle by limiting it's logic to only be for placeable objects all other behaviors are being inherited from it's parent class. However, the approach to the SRP can also be improved by splitting the code into even fewer roles by moving scene intialization and coordinating puzzle completion into the controller script. 
+
+**Dependency Inversion Principle:** Looking at our [draggable_object.gd](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/draggable_object.gd) script, there are some issues with it depending directly on the concrete server as it makes requests. While there are good points such as the server acting as a centralized handler for game logic and unspread server logic, interaction between draggable_object.gd and server.gd for something such as requesting movement could be handled through an abstraction layer like signals so that DIP will be followed properly.
+
+**Liskov Substitution Principle:** The [object.gd](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/object.gd) script follows the Liskov substitution principle such that scripts that inherit it's behavior correctly call super() and does not change what the function is expecting with the variables object_id and moveable. Further improvements could be made to include more explicit expectations within the script either by using @export and using documentation of the assumptions within the code to avoid violations of LSP.
