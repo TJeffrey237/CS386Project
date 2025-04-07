@@ -33,11 +33,12 @@ Alternate Scenario: <br>
 
 # Design Patterns #
 ## Section 1 ##
-Split this section into 2 subsections. For each subsection, present a UML class diagram showing the application of a design patternLinks to an external site. to your system (a different pattern for each section). Each class diagram should contain only the classes involved in the specific pattern (you don’t need to represent the whole system). Choose patterns from two different categories: Behavioral, Structural, and Creational. You are not limited to design patterns studied in class. 
+Command design pattern from the Behavioral category. Different classes send requests to the server with just the request it and the data using the handle_request(action, data) method, providing the type of black box scope that is expected in this pattern.
+ - Server: [Link to server class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/server.gd)
+ - Object: [Link to object class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/object.gd)
+ - Puzzle_controller: [Link to puzzle controller class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/jigsaw_controller.gd)
 
-Your system may not be appropriate for any design pattern. In this case, for didactic purposes, be creative and extend a little bit the scope of your system to make the design patterns appropriate. 
-
-Implement each design pattern in your system and provide GitHub links to the corresponding classes.
+![Deliverable_5_Design_Pattern_1](https://github.com/user-attachments/assets/0340fd76-16f2-4b1e-8fc8-990d834f0541)
 
 ## Section 2 ##
 Singleton design pattern from the Creational category.
