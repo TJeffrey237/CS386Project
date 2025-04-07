@@ -7,9 +7,7 @@ The architecture for upkeep is designed to have organization between the scrips,
 ![Package drawio](https://github.com/user-attachments/assets/68508820-9940-46f9-bfab-d060c366e879)
 
 # Class Diagrams #
-Present a refined class diagram of your system, including implementation details such as visibilities, attributes to represent associations, attribute types, return types, parameters, etc. The class diagram should match the code you have produced so far, but not be limited to it (e.g., it can contain classes not implemented yet). 
-
-The difference between this class diagram and the one that you presented in D.3 is that the last focuses on the conceptual model of the domain while the former reflects the implementation. Therefore, the implementation details are relevant in this case. 
+![UML_Class_Diagram_CS386Project_Deliverable5](https://github.com/user-attachments/assets/3dd3025d-abf4-4d0b-bb65-b8e19a9647c5)
 
 # Sequence Diagrams #
 Use Case: User drags and places a puzzle object <br>
