@@ -42,7 +42,7 @@ func add_object(data):
 
 func request_move(data):
 	if not data.has("object_id"):
-		return "Error: Missing object_id"
+		return {"approved": false}
 	var object_id = data.get("object_id", "")
 	
 	if DEBUG_MODE:

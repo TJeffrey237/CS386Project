@@ -10,19 +10,14 @@ func _ready():
 func start():
 	tiles = [$CollisionShape2D/tile, $CollisionShape2D/tile2, $CollisionShape2D/tile3, $CollisionShape2D/tile4, $CollisionShape2D/tile5, $CollisionShape2D/tile6, $CollisionShape2D/tile7, $CollisionShape2D/tile8, $CollisionShape2D/tile9, $CollisionShape2D/tile10, $CollisionShape2D/tile11, $CollisionShape2D/tile12, $CollisionShape2D/tile13, $CollisionShape2D/tile14, $CollisionShape2D/tile15, $CollisionShape2D/tile16]
 	solved = tiles.duplicate()
-	shuffle_tiiles()
+	shuffle_tiles()
 
-func shuffle_tiiles():
-	var prev = 99
-	var afterPrev = 98
-	for t in range(0, 1000):
-		var tile = randi() % 16
-		if tiles[tile] != $CollisionShape2D/tile16 and tile != prev and tile != afterPrev:
-			var rows = int(tiles[tile].position.y /125)
-			var cols = int(tiles[tile].position.x / 125)
-			check_empty(rows, cols)
-			afterPrev = prev
-			prev = tile
+func shuffle_tiles():
+	for tile in tiles:
+		var random_tile = tiles[randi() % 16]
+		var pos1 = int(tile.position.y / 125) * 4 + int(tile.position.x / 125)
+		var pos2 = int(random_tile.position.y / 125) * 4 + int(random_tile.position.x / 125)
+		swap(pos1, pos2)
 
 func _process(delta):
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and click:
