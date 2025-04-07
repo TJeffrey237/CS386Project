@@ -15,8 +15,9 @@ Tyler
 - Github Summary: 6 Commits
 
 Jackson
-- .
-- Github Summary: x Commits
+- Fixed issue with sliding puzzle not shuffling properly
+- Contributed to deliverable 5
+- Github Summary: 6 Commits
 
 Richelle
 - Continue to work on the movement puzzle moving in the particular ways is working
@@ -37,7 +38,9 @@ Tyler
 - Work on deliverable 6
 
 Jackson 
-- .
+- Start work on new puzzles, possibly a drawing puzzle
+- Continue refining existing code base to be expandable
+- Work on deliverable 6
 
 Richelle
 - Make it so that in the movement puzzle the player may interact with an item.
