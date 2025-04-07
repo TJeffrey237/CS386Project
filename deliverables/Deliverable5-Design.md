@@ -38,7 +38,7 @@ Command design pattern from the Behavioral category. Different classes send requ
  - Object: [Link to object class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/object.gd)
  - Puzzle_controller: [Link to puzzle controller class](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scripts/jigsaw_controller.gd)
 
-![Deliverable_5_Design_Pattern_1](https://github.com/user-attachments/assets/0340fd76-16f2-4b1e-8fc8-990d834f0541)
+![Deliverable_5_Design_Pattern_1](https://github.com/user-attachments/assets/ca701797-5470-4d5b-8721-304408e815ff)
 
 ## Section 2 ##
 Singleton design pattern from the Creational category.
