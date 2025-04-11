@@ -30,5 +30,7 @@ Include a link to a video showing the system working.
 # Code Quality #
 Describe how your team managed code quality. What were your policies, conventions, adopted best practices, etc. to foster high-quality code? 
 
+Naming conventions, readability, comments, GDscript style guide
+
 # Lessons Learned #
 In retrospect, describe what your team learned during this second release and what would you change if you would continue developing the project. 
