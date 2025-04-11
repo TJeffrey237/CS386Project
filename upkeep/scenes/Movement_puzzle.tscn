@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=3 uid="uid://betvh7j3agrbf"]
+
+[ext_resource type="Script" uid="uid://dmsei5dwu8h7o" path="res://scripts/wasd.gd" id="1_15qfj"]
+[ext_resource type="Script" uid="uid://itcd31jw0a6b" path="res://scripts/arrow.gd" id="2_p5aha"]
+[ext_resource type="Script" uid="uid://bfbg7dkfl2cii" path="res://scripts/rigid_body_2d.gd" id="3_p5aha"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_r65ds"]
+size = Vector2(50, 50)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p5aha"]
+size = Vector2(50, 50)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_1fgvm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r65ds"]
+size = Vector2(50, 50)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_dwf8e"]
+size = Vector2(50, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1fgvm"]
+size = Vector2(50, 100)
+
+[node name="MovementPuzzle" type="Node2D"]
+
+[node name="WASD" type="CharacterBody2D" parent="."]
+position = Vector2(100, 100)
+script = ExtResource("1_15qfj")
+
+[node name="Sprite2D" type="Sprite2D" parent="WASD"]
+texture = SubResource("PlaceholderTexture2D_r65ds")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WASD"]
+shape = SubResource("RectangleShape2D_p5aha")
+
+[node name="Arrow" type="CharacterBody2D" parent="."]
+position = Vector2(100, 200)
+script = ExtResource("2_p5aha")
+
+[node name="Sprite2D" type="Sprite2D" parent="Arrow"]
+scale = Vector2(50, 50)
+texture = SubResource("PlaceholderTexture2D_1fgvm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arrow"]
+shape = SubResource("RectangleShape2D_r65ds")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(250, 150)
+script = ExtResource("3_p5aha")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+texture = SubResource("PlaceholderTexture2D_dwf8e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("RectangleShape2D_1fgvm")
