@@ -21,11 +21,11 @@ Richelle
 - Github Summary: 
 
 ## 2. Retrospective ##
-1. Appreciations: 
-2. Successes: 
-3. Failures: 
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciations: Good progress made with different parts of the project at once.
+2. Successes: Delegated work for deliverable 6.
+3. Failures: Struggling with implementation for one puzzle.
+4. Barriers: Other coursework.
+5. What we should try next time: Focusing on what is needed for deliverable 7.
 
 ## 3. Next Steps ##
 Tyler
