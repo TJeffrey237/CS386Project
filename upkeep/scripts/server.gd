@@ -207,9 +207,5 @@ func create_mask(data):
 	if DEBUG_MODE:
 		print("Mask Properties: Height: ", height, " Width: ", width, " Color: ", fill_color)
 	var mask_image = Image.create_empty(width, height, false, Image.FORMAT_RGB8)
-	for y in range(height):
-		if DEBUG_MODE:
-			print("Setting pixels in row: ", y)
-		for x in range(width):
-			mask_image.set_pixel(x, y, fill_color)
+	mask_image.fill(fill_color)
 	return mask_image
