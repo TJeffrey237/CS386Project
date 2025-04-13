@@ -17,8 +17,10 @@ Jackson
 - Github Summary: 
 
 Richelle
-- .
-- Github Summary: 
+- Working to get the movement puzzle working.
+- Created a branch for the movement puzzle.
+- Committed the current state of the movement puzzle to the movement puzzle branch
+- Github Summary: 3
 
 ## 2. Retrospective ##
 1. Appreciations: Good progress made with different parts of the project at once.
@@ -35,4 +37,5 @@ Jackson
 - .
 
 Richelle
-- .
+- Make it so that the player can interact with the box in the movement puzzle.
+- Work more on understanding how Godot works.
