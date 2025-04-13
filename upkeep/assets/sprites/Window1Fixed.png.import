@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hwugr14wrm5m"
-path="res://.godot/imported/BrokenWindowHover.png-447b5a68dc45b64077aa19f03cbdfa7d.ctex"
+uid="uid://5vgnmr4mww6i"
+path="res://.godot/imported/Window1Fixed.png-cdef3ceff81ba1e07d6dcfd9fa0c8915.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/BrokenWindowHover.png"
-dest_files=["res://.godot/imported/BrokenWindowHover.png-447b5a68dc45b64077aa19f03cbdfa7d.ctex"]
+source_file="res://assets/sprites/Window1Fixed.png"
+dest_files=["res://.godot/imported/Window1Fixed.png-cdef3ceff81ba1e07d6dcfd9fa0c8915.ctex"]
 
 [params]
 

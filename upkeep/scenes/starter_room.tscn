@@ -1,11 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://dh34djn7cxg10"]
+[gd_scene load_steps=10 format=3 uid="uid://dh34djn7cxg10"]
 
 [ext_resource type="Texture2D" uid="uid://cxlxibktxdwyw" path="res://assets/sprites/TiledBackground.png" id="1_bdgl8"]
 [ext_resource type="Script" uid="uid://br2a4xh6oxlpt" path="res://scripts/starter_room.gd" id="1_hytlw"]
 [ext_resource type="Texture2D" uid="uid://dk1digycpbwuc" path="res://assets/sprites/StarterRoom.png" id="2_3dxns"]
-[ext_resource type="Texture2D" uid="uid://df0bg505q0ddc" path="res://assets/sprites/BrokenWindow.png" id="4_jhg2j"]
-[ext_resource type="Texture2D" uid="uid://hwugr14wrm5m" path="res://assets/sprites/BrokenWindowHover.png" id="5_6m1jm"]
-[ext_resource type="Texture2D" uid="uid://5vgnmr4mww6i" path="res://assets/sprites/WindowFixed.png" id="6_6m1jm"]
+[ext_resource type="Texture2D" uid="uid://df0bg505q0ddc" path="res://assets/sprites/Window1Broken.png" id="4_jhg2j"]
+[ext_resource type="Texture2D" uid="uid://hwugr14wrm5m" path="res://assets/sprites/Window1Hover.png" id="5_6m1jm"]
+[ext_resource type="Texture2D" uid="uid://hg5d1a1ju7ds" path="res://assets/sprites/Floor1Hover.png" id="5_vkfl5"]
+[ext_resource type="Texture2D" uid="uid://5vgnmr4mww6i" path="res://assets/sprites/Window1Fixed.png" id="6_6m1jm"]
+[ext_resource type="Texture2D" uid="uid://c6t05hyawglne" path="res://assets/sprites/Floor1Fixed.png" id="6_esh77"]
+[ext_resource type="Texture2D" uid="uid://b42g05m6k3y0p" path="res://assets/sprites/Floor1Broken.png" id="7_sq1wq"]
 
 [node name="StarterRoom" type="Node2D"]
 script = ExtResource("1_hytlw")
@@ -19,6 +22,23 @@ texture = ExtResource("1_bdgl8")
 position = Vector2(573, 321)
 scale = Vector2(4, 4)
 texture = ExtResource("2_3dxns")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 261.0
+offset_top = 383.0
+offset_right = 907.0
+offset_bottom = 430.0
+
+[node name="FloorButton" type="TextureButton" parent="Control"]
+offset_right = 156.0
+offset_bottom = 54.0
+scale = Vector2(4, 4)
+texture_normal = ExtResource("7_sq1wq")
+texture_hover = ExtResource("5_vkfl5")
+texture_disabled = ExtResource("6_esh77")
+stretch_mode = 4
 
 [node name="WindowButton" type="TextureButton" parent="."]
 offset_left = 433.0

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://df0bg505q0ddc"
-path="res://.godot/imported/BrokenWindow.png-567cbefdf92672100d2a21883795602e.ctex"
+uid="uid://b42g05m6k3y0p"
+path="res://.godot/imported/Floor1Broken.png-1d2fa64e363080ab5ed55892a1db87be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/BrokenWindow.png"
-dest_files=["res://.godot/imported/BrokenWindow.png-567cbefdf92672100d2a21883795602e.ctex"]
+source_file="res://assets/sprites/Floor1Broken.png"
+dest_files=["res://.godot/imported/Floor1Broken.png-1d2fa64e363080ab5ed55892a1db87be.ctex"]
 
 [params]
 

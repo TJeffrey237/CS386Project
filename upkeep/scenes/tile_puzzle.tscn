@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://b4bhuq144bdir"]
 
 [ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_sy1ui"]
-[ext_resource type="Texture2D" uid="uid://d7iwplv6ehis" path="res://assets/sprites/WindowJigsawBackground.png" id="2_5m1gu"]
+[ext_resource type="Texture2D" uid="uid://d7iwplv6ehis" path="res://assets/sprites/Window1Background.png" id="2_5m1gu"]
 [ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="2_8ay3p"]
 [ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_y3jfp"]
 [ext_resource type="Texture2D" uid="uid://bi6csk0qi1k34" path="res://assets/sprites/WindowPieces/Piece1.png" id="4_58mt0"]

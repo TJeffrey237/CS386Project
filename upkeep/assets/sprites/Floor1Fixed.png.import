@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5vgnmr4mww6i"
-path="res://.godot/imported/WindowFixed.png-dd6d05d9de093ac9a4691a701e9774c5.ctex"
+uid="uid://c6t05hyawglne"
+path="res://.godot/imported/Floor1Fixed.png-1ce1665401a45c2db2ef1e82800a851d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/WindowFixed.png"
-dest_files=["res://.godot/imported/WindowFixed.png-dd6d05d9de093ac9a4691a701e9774c5.ctex"]
+source_file="res://assets/sprites/Floor1Fixed.png"
+dest_files=["res://.godot/imported/Floor1Fixed.png-1ce1665401a45c2db2ef1e82800a851d.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d7iwplv6ehis"
-path="res://.godot/imported/WindowJigsawBackground.png-376d0106ad18585be65a4fe3efc003de.ctex"
+uid="uid://hwugr14wrm5m"
+path="res://.godot/imported/Window1Hover.png-e899ab5e379972a9961f6166c25b6972.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/WindowJigsawBackground.png"
-dest_files=["res://.godot/imported/WindowJigsawBackground.png-376d0106ad18585be65a4fe3efc003de.ctex"]
+source_file="res://assets/sprites/Window1Hover.png"
+dest_files=["res://.godot/imported/Window1Hover.png-e899ab5e379972a9961f6166c25b6972.ctex"]
 
 [params]
 
