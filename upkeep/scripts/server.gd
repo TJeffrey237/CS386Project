@@ -206,6 +206,6 @@ func create_mask(data):
 	var fill_color = data["fill_color"]
 	if DEBUG_MODE:
 		print("Mask Properties: Height: ", height, " Width: ", width, " Color: ", fill_color)
-	var mask_image = Image.create_empty(width, height, false, Image.FORMAT_RGB8)
+	var mask_image = Image.create_empty(width, height, false, Image.FORMAT_RGBA8)
 	mask_image.fill(fill_color)
 	return mask_image
