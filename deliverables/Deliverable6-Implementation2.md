@@ -8,12 +8,12 @@ List in this section, the requirements and associated pull request that you impl
 We expect that you implement/prototype the features you specified in your MVP (c.f. D.2 Requirements). We expect that all the members of the group have been involved in some programming activities and report here several pull requests. 
 
 Pull Request 1:
-- Requirement: 
-- Issue: 
+- Requirement: As a player, I want a puzzle that allows me to clean an object by drawing with my mouse so that I can get more immersed into the cleaning experience.
+- Issue: [#37](https://github.com/TJeffrey237/CS386Project/issues/37)
 - Pull request: 
 - Implemented by: Jackson Belzer
 - Approved by: 
-- Print screen: 
+- Print screen: ![image](https://github.com/user-attachments/assets/e45a529a-598c-4e70-a3b7-5d42075c00f7)
 
 Pull Request 2:
 - Requirement: 
