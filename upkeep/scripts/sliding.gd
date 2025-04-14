@@ -8,7 +8,7 @@ func _ready():
 	start()
 
 func start():
-	tiles = [$CollisionShape2D/tile, $CollisionShape2D/tile2, $CollisionShape2D/tile3, $CollisionShape2D/tile4, $CollisionShape2D/tile5, $CollisionShape2D/tile6, $CollisionShape2D/tile7, $CollisionShape2D/tile8, $CollisionShape2D/tile9, $CollisionShape2D/tile10, $CollisionShape2D/tile11, $CollisionShape2D/tile12, $CollisionShape2D/tile13, $CollisionShape2D/tile14, $CollisionShape2D/tile15, $CollisionShape2D/tile16]
+	tiles = [$CollisionShape2D/tile1, $CollisionShape2D/tile2, $CollisionShape2D/tile3, $CollisionShape2D/tile4, $CollisionShape2D/tile5, $CollisionShape2D/tile6, $CollisionShape2D/tile7, $CollisionShape2D/tile8, $CollisionShape2D/tile9, $CollisionShape2D/tile10, $CollisionShape2D/tile11, $CollisionShape2D/tile12, $CollisionShape2D/tile13, $CollisionShape2D/tile14, $CollisionShape2D/tile15, $CollisionShape2D/tile16]
 	solved = tiles.duplicate()
 	shuffle_tiles()
 
