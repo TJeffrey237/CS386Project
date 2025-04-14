@@ -46,7 +46,7 @@ https://help.github.com/articles/about-pull-requests
 - Framework: GUT
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
 - Class being tested: [Link](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/scenes/drawing_puzzle.tscn)
-- Test: [Link](https://github.com/TJeffrey237/CS386Project/blob/test-merge/upkeep/tests/test_drawing_solve.gd)
+- Test: [Link](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/tests/test_drawing_solve.gd)
 - Print Screen: ![image](https://github.com/user-attachments/assets/42abec2c-d23e-4598-a8dd-3e62c3ef2faa)
 
 
