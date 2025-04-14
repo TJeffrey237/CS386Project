@@ -1,6 +1,6 @@
 extends Node2D
 
-const RADIUS = 20
+const RADIUS = 40
 const STEP_DISTANCE = 1
 const MAX_STEPS = 20
 const CLEAN_THRESHOLD = 0.98
@@ -41,7 +41,7 @@ func _ready():
 	width = viewport.size.x
 	mask_image = Server.handle_request("create_mask", {"height": height, 
 														"width": width, 
-														"fill_color": Color(255, 255, 255)})
+														"fill_color": Color(100, 84, 57)})
 	mask_texture = ImageTexture.create_from_image(mask_image)
 	
 	var mask_sprite = Sprite2D.new()
