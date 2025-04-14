@@ -13,8 +13,10 @@ Tyler
 - Github Summary: 
 
 Jackson
-- .
-- Github Summary: 
+- Completed a drawing puzzle so that the player can wipe down an object to solve puzzle
+- Created a test that automatically solves the drawing test and checks that it is working properly
+- Contributed to Deliverable 6
+- Github Summary: 10 commits
 
 Richelle
 - Working to get the movement puzzle working.
@@ -34,7 +36,8 @@ Tyler
 - .
 
 Jackson 
-- .
+- Work on at least another puzzle to get working before the semester is finished
+- Work on putting pieces together to get a good vertical slice of the game that feels polished to play
 
 Richelle
 - Make it so that the player can interact with the box in the movement puzzle.
