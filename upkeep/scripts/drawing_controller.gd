@@ -5,6 +5,7 @@ const STEP_DISTANCE = 1
 const MAX_STEPS = 20
 const CLEAN_THRESHOLD = 0.98
 var DEBUG_MODE = Server.DEBUG_MODE
+signal exit_pressed
 
 var viewport: Viewport
 var width: int
@@ -201,7 +202,8 @@ func _on_exit_button_pressed():
 		print("Exit signal received.")
 	var exit_button = get_node("Exit")
 	if exit_button.visible:
-		get_tree().change_scene_to_file("res://scenes/starter_room.tscn")
+		emit_signal("exit_pressed")
+		queue_free()
 	
 func _exit_tree():
 	if rd:
