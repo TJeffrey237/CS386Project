@@ -19,6 +19,10 @@ config/icon="res://icon.svg"
 
 Server="*res://scripts/server.gd"
 
+[display]
+
+window/vsync/vsync_mode=0
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/gut/plugin.cfg")

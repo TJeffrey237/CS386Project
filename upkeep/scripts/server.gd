@@ -16,7 +16,8 @@ func _ready():
 		"request_move": request_move,
 		"finalize_move": finalize_move,
 		"create_place_locations": create_place_locations,
-		"check_jigsaw_completion" : check_jigsaw_completion
+		"check_jigsaw_completion" : check_jigsaw_completion,
+		"create_mask": create_mask,
 	}
 
 func handle_request(action, data):
@@ -198,3 +199,13 @@ func check_jigsaw_completion(data):
 	if DEBUG_MODE:
 		print("Jigsaw complete.")
 	return true
+	
+func create_mask(data):
+	var height = data["height"]
+	var width = data["width"]
+	var fill_color = data["fill_color"]
+	if DEBUG_MODE:
+		print("Mask Properties: Height: ", height, " Width: ", width, " Color: ", fill_color)
+	var mask_image = Image.create_empty(width, height, false, Image.FORMAT_RGBA8)
+	mask_image.fill(fill_color)
+	return mask_image
