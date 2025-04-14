@@ -10,7 +10,7 @@ We expect that you implement/prototype the features you specified in your MVP (c
 Pull Request 1:
 - Requirement: As a player, I want a puzzle that allows me to clean an object by drawing with my mouse so that I can get more immersed into the cleaning experience.
 - Issue: [#37](https://github.com/TJeffrey237/CS386Project/issues/37)
-- Pull request: 
+- Pull request: [#38](https://github.com/TJeffrey237/CS386Project/pull/38)
 - Implemented by: Jackson Belzer
 - Approved by: Tyler Jeffrey
 - Print screen: ![image](https://github.com/user-attachments/assets/e45a529a-598c-4e70-a3b7-5d42075c00f7)
