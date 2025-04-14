@@ -9,8 +9,10 @@ Project Repo: [link](https://github.com/TJeffrey237/CS386Project.git)
 
 ## 1. Activity Summary ##
 Tyler
-- .
-- Github Summary: 
+- Created art for various puzzles
+- Fixed issue with scene switching
+- Contributed to Deliverable 6
+- Github Summary: 4 commits
 
 Jackson
 - Completed a drawing puzzle so that the player can wipe down an object to solve puzzle
@@ -33,7 +35,10 @@ Richelle
 
 ## 3. Next Steps ##
 Tyler
-- .
+- Continue working on art
+- Add background music
+- Make sound effects for certain actions
+- Flesh out menu functions
 
 Jackson 
 - Work on at least another puzzle to get working before the semester is finished
