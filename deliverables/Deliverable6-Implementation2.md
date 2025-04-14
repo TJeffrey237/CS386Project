@@ -1,5 +1,6 @@
 # Introduction #
-Provide 1-2 paragraphs to describe your system. This description should contain the value proposition and the main features. At the end of the introduction, include a link to your project on GitHub.
+Upkeep is a 2D pixel art puzzle game that places players in the role of a house renovator. The core gameplay involves selecting renovation tasks and solving environment-based puzzles to restore homes for a variety of homeowners. With each house comes a unique set of puzzles and light storylines that are gradually revealed as the player progresses through the renovation process. Upkeep also emphasizes simplicity across all design aspects, including puzzle mechanics, user interface, and visual presentation. This approach allows for a greater range of accessibility between users while also engaging them in a simple and relaxing gameplay experience.
+- Repository: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Requirements #
 List in this section, the requirements and associated pull request that you implemented for this release, following the example below---include the description of the requirement, a link to the issue,  a link to the pull request(s) that implement the requirement, who implemented the requirement, who approved it, and a print screen that depicts the implemented feature (if applicable). Order the requirements by the name of the student who implemented them.
@@ -33,4 +34,4 @@ Describe how your team managed code quality. What were your policies, convention
 Naming conventions, readability, comments, GDscript style guide
 
 # Lessons Learned #
-In retrospect, describe what your team learned during this second release and what would you change if you would continue developing the project. 
+Looking at what we have done for this deliverable, the process felt a lot smoother compared to what we have worked on in the past. This is a result of some better planning and already having an established layout for us to follow when developing our product. Despite this, our group could still work on coordinating the features we are expecting so that the vision for the product is the same between all of us. Otherwise, smaller issues with coding quality and guidelines were some things we had trouble with but it also helped us to really ensure our code is organized in how we write it. Overall our team is working together well and we hope to focus more on teamwork alongside the validation aspect of our product moving forward.
