@@ -32,17 +32,6 @@ Pull Request 3:
 - Approved by: 
 - Print screen: 
 
-Example:
-- Requirement: As a Student, I want to add a homework assignment so that I can organize my ToDo list.
-- Issue: <link to your GitHub issue>
-- Pull request: https://github.com/user/project/pull/426
-- Implemented by: Martin Fowler
-- Approved by: Ada Lovelace
-- Print screen: A print screen that depicts the implemented feature (if applicable)
-
-Remember that all source code should be submitted by means of pull requests and the quality assurance person in the team should review and approve each pull request. For more information about pull requests:
-https://help.github.com/articles/about-pull-requests  
-
 # Tests #
 - Framework: GUT
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
@@ -55,9 +44,7 @@ https://help.github.com/articles/about-pull-requests
 Include a link to a video showing the system working.
 
 # Code Quality #
-Describe how your team managed code quality. What were your policies, conventions, adopted best practices, etc. to foster high-quality code? 
-
-Naming conventions, readability, comments, GDscript style guide
+As our code is mainly written primarily in GDscript, Godot comes with a predefined style guide used during our implementation process. For formatting basics, our code uses proper formatting for tabs, statement length, commas, and parenthesis. These steps are taken to improve readability for other developers between things such as functions and nested statements. We also make sure to follow a consistent code structure with expected variables, constants, signals, and @ready types at the top, subsequently having static methods and private methods towards the middle and bottom. In terms of naming coventions, we primarily adopt snake case to handel variables and camel case for things such as objects. Having all of these adopted code conventions helps us to stay consistent when writing our code to prevent potential issues with readability and functionality. For a more in depth explanation, please see the [GDscript Style Guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html).
 
 # Lessons Learned #
 Looking at what we have done for this deliverable, the process felt a lot smoother compared to what we have worked on in the past. This is a result of some better planning and already having an established layout for us to follow when developing our product. Despite this, our group could still work on coordinating the features we are expecting so that the vision for the product is the same between all of us. Otherwise, smaller issues with coding quality and guidelines were some things we had trouble with but it also helped us to really ensure our code is organized in how we write it. Overall our team is working together well and we hope to focus more on teamwork alongside the validation aspect of our product moving forward.
