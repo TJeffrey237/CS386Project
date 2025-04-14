@@ -12,16 +12,17 @@ Pull Request 1:
 - Issue: [#37](https://github.com/TJeffrey237/CS386Project/issues/37)
 - Pull request: 
 - Implemented by: Jackson Belzer
-- Approved by: 
+- Approved by: Tyler Jeffret
 - Print screen: ![image](https://github.com/user-attachments/assets/e45a529a-598c-4e70-a3b7-5d42075c00f7)
 
 Pull Request 2:
-- Requirement: 
-- Issue: 
-- Pull request:
+- Requirement: As a developer, I want to design creative assets so that I can make the game visually appealing.
+- Issue: [#1](https://github.com/TJeffrey237/CS386Project/issues/1)
+- Pull request: [#39](https://github.com/TJeffrey237/CS386Project/pull/39)
 - Implemented by: Tyler Jeffrey
-- Approved by:
-- Print screen:
+- Approved by: Jackson Belzer
+- Print screen: ![image](https://github.com/user-attachments/assets/6377c89d-63b9-4c2b-b794-bd6af39e02bf)
+
 
 Pull Request 3:
 - Requirement:
