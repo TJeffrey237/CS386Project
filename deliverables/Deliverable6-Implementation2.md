@@ -41,7 +41,7 @@ Pull Request 3:
 
 
 # Demo #
-Include a link to a video showing the system working.
+DEMO: [Video](https://youtu.be/4TjDL317IGU)
 
 # Code Quality #
 As our code is mainly written primarily in GDscript, Godot comes with a predefined style guide used during our implementation process. For formatting basics, our code uses proper formatting for tabs, statement length, commas, and parenthesis. These steps are taken to improve readability for other developers between things such as functions and nested statements. We also make sure to follow a consistent code structure with expected variables, constants, signals, and @ready types at the top, subsequently having static methods and private methods towards the middle and bottom. In terms of naming coventions, we primarily adopt snake case to handle variables and camel case for things such as objects. Having all of these adopted code conventions helps us to stay consistent when writing our code to prevent potential issues with readability and functionality. For a more in depth explanation, please see the [GDscript Style Guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html).
