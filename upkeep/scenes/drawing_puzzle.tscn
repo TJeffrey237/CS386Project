@@ -1,8 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://s7fowvfw4ews"]
+[gd_scene load_steps=9 format=3 uid="uid://s7fowvfw4ews"]
 
 [ext_resource type="Script" uid="uid://cgrlw4u0anoek" path="res://scripts/drawing_controller.gd" id="1_vcq85"]
 [ext_resource type="Shader" uid="uid://cnsvc2prl74bt" path="res://scripts/layer_mask.gdshader" id="2_2dg2b"]
+[ext_resource type="Texture2D" uid="uid://cme7kjp878ogo" path="res://assets/sprites/VanityMirrorClean.png" id="2_gnaad"]
 [ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_83v84"]
+[ext_resource type="Texture2D" uid="uid://w4sf3p0sheni" path="res://assets/sprites/VanityDrawingBackground.png" id="5_asrms"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_83v84"]
 shader = ExtResource("2_2dg2b")
@@ -17,13 +19,16 @@ subpixel_positioning = 0
 script = ExtResource("1_vcq85")
 
 [node name="CleanObject" type="Polygon2D" parent="."]
-position = Vector2(-125, -125)
+position = Vector2(-468, -251)
+scale = Vector2(3.76, 2.02)
+texture = ExtResource("2_gnaad")
 polygon = PackedVector2Array(0, 0, 250, 0, 250, 250, 0, 250)
 
 [node name="DirtyObject" type="Polygon2D" parent="."]
 material = SubResource("ShaderMaterial_83v84")
-position = Vector2(-125, -125)
-color = Color(0.176419, 0.176419, 0.176419, 1)
+position = Vector2(-468, -251)
+scale = Vector2(3.76, 2.02)
+color = Color(0.392727, 0.331199, 0.225217, 1)
 texture = SubResource("CanvasTexture_2dg2b")
 polygon = PackedVector2Array(0, 0, 250, 0, 250, 250, 0, 250)
 uv = PackedVector2Array(0, 0, 250, 0, 250, 250, 0, 250)
@@ -45,6 +50,11 @@ text = "Completed"
 fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="VanityDrawingBackground" type="Sprite2D" parent="."]
+position = Vector2(0.999969, 1)
+scale = Vector2(7.2, 7.2)
+texture = ExtResource("5_asrms")
 
 [node name="Exit" type="TextureButton" parent="."]
 visible = false
