@@ -19,14 +19,6 @@ Pull Request 2:
 - Approved by: Jackson Belzer
 - Print screen: ![image](https://github.com/user-attachments/assets/6377c89d-63b9-4c2b-b794-bd6af39e02bf)
 
-Pull Request 3:
-- Requirement:
-- Issue:
-- Pull request:
-- Implemented by: Richelle Rouleau
-- Approved by: 
-- Print screen: 
-
 # Tests #
 - Framework: GUT
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
