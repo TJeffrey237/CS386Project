@@ -7,6 +7,30 @@ List in this section, the requirements and associated pull request that you impl
 
 We expect that you implement/prototype the features you specified in your MVP (c.f. D.2 Requirements). We expect that all the members of the group have been involved in some programming activities and report here several pull requests. 
 
+Pull Request 1:
+- Requirement: 
+- Issue: 
+- Pull request: 
+- Implemented by: Jackson Belzer
+- Approved by: 
+- Print screen: 
+
+Pull Request 2:
+- Requirement: 
+- Issue: 
+- Pull request:
+- Implemented by: Tyler Jeffrey
+- Approved by:
+- Print screen:
+
+Pull Request 3:
+- Requirement:
+- Issue:
+- Pull request:
+- Implemented by: Richelle Rouleau
+- Approved by: 
+- Print screen: 
+
 Example:
 - Requirement: As a Student, I want to add a homework assignment so that I can organize my ToDo list.
 - Issue: <link to your GitHub issue>
