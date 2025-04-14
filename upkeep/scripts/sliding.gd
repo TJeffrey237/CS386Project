@@ -3,6 +3,7 @@ extends Area2D
 var tiles = []
 var solved = []
 var click = false
+signal exit_pressed
 
 func _ready():
 	start()

@@ -58,4 +58,6 @@ texture_hover = ExtResource("5_6m1jm")
 texture_disabled = ExtResource("6_6m1jm")
 stretch_mode = 4
 
-[connection signal="pressed" from="WindowButton" to="." method="_on_texture_button_pressed"]
+[connection signal="pressed" from="FloorButton" to="." method="_on_floor_button_pressed"]
+[connection signal="pressed" from="VanityButton" to="." method="_on_vanity_button_pressed"]
+[connection signal="pressed" from="WindowButton" to="." method="_on_window_button_pressed"]
