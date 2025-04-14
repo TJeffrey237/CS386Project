@@ -12,7 +12,7 @@ Pull Request 1:
 - Issue: [#37](https://github.com/TJeffrey237/CS386Project/issues/37)
 - Pull request: 
 - Implemented by: Jackson Belzer
-- Approved by: Tyler Jeffret
+- Approved by: Tyler Jeffrey
 - Print screen: ![image](https://github.com/user-attachments/assets/e45a529a-598c-4e70-a3b7-5d42075c00f7)
 
 Pull Request 2:
