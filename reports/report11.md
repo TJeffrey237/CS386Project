@@ -24,7 +24,7 @@ Richelle
 - Working to get the movement puzzle working.
 - Created a branch for the movement puzzle.
 - Committed the current state of the movement puzzle to the movement puzzle branch
-- Github Summary: 3
+- Github Summary: 3 commits
 
 ## 2. Retrospective ##
 1. Appreciations: Good progress made with different parts of the project at once.
