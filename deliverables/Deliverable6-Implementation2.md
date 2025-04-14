@@ -3,10 +3,6 @@ Upkeep is a 2D pixel art puzzle game that places players in the role of a house 
 - Repository: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Requirements #
-List in this section, the requirements and associated pull request that you implemented for this release, following the example below---include the description of the requirement, a link to the issue,  a link to the pull request(s) that implement the requirement, who implemented the requirement, who approved it, and a print screen that depicts the implemented feature (if applicable). Order the requirements by the name of the student who implemented them.
-
-We expect that you implement/prototype the features you specified in your MVP (c.f. D.2 Requirements). We expect that all the members of the group have been involved in some programming activities and report here several pull requests. 
-
 Pull Request 1:
 - Requirement: As a player, I want a puzzle that allows me to clean an object by drawing with my mouse so that I can get more immersed into the cleaning experience.
 - Issue: [#37](https://github.com/TJeffrey237/CS386Project/issues/37)
@@ -22,7 +18,6 @@ Pull Request 2:
 - Implemented by: Tyler Jeffrey
 - Approved by: Jackson Belzer
 - Print screen: ![image](https://github.com/user-attachments/assets/6377c89d-63b9-4c2b-b794-bd6af39e02bf)
-
 
 Pull Request 3:
 - Requirement:
