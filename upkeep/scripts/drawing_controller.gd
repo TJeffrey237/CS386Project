@@ -42,7 +42,7 @@ func _ready():
 	width = viewport.size.x
 	mask_image = Server.handle_request("create_mask", {"height": height, 
 														"width": width, 
-														"fill_color": Color(100, 84, 57)})
+														"fill_color": Color(255, 255, 255)})
 	mask_texture = ImageTexture.create_from_image(mask_image)
 	
 	var mask_sprite = Sprite2D.new()
@@ -51,6 +51,7 @@ func _ready():
 	mask_sprite.visible = true
 	DirtyObject = get_node("DirtyObject")
 	var object_copy = DirtyObject.duplicate()
+	object_copy.color.a = 1
 	object_copy.position = DirtyObject.position + Vector2(width/2.0,height/2.0)
 	object_copy.modulate = Color(0, 0, 0)
 	
@@ -130,7 +131,7 @@ func setup_compute_shader():
 func _process(_delta):
 	if timer.time_left <= 0.01:
 		#print(Engine.get_frames_per_second())
-		#print(clean_count)
+		print(clean_count)
 		timer.start()
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		var point_array = []
