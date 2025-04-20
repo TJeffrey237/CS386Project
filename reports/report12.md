@@ -17,14 +17,14 @@ Jackson
 - Github Summary:
 
 Richelle
-- .
-- Github Summary:
+- Not had a lot of time to work on stuff this week but am still working on the movement puzzle.
+- Github Summary: 1
 
 ## 2. Retrospective ##
 1. Appreciations:
 2. Successes:
 3. Failures:
-4. Barriers:
+4. Barriers: Other classwork.
 5. What we should try next time:
 
 ## 3. Next Steps ##
@@ -35,4 +35,4 @@ Jackson
 - .
 
 Richelle
-- .
+- Next week I think I should have quite a bit of time to work on the movement.
