@@ -13,8 +13,9 @@ Tyler
 - Github Summary:
 
 Jackson
-- .
-- Github Summary:
+- Centerd the sliding puzzle on the screen.
+- Fixed bug that broke the masking of the drawing/cleaning puzzle when alpha of dirty texture was not 1.
+- Github Summary: 2
 
 Richelle
 - Not had a lot of time to work on stuff this week but am still working on the movement puzzle.
@@ -32,7 +33,9 @@ Tyler
 - .
 
 Jackson 
-- .
+- Continue to work on polish
+- Consider adding another puzzle mechanic before final stage of project
+- Get people to play the game and give feedback
 
 Richelle
 - Next week I think I should have quite a bit of time to work on the movement.
