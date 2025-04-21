@@ -35,7 +35,8 @@ func _process(_delta):
 		print("Rows: ", rows, " Cols: ", cols)
 		check_empty(rows, cols)
 		if tiles == solved:
-			print("You win!")
+			emit_signal("exit_pressed")
+			queue_free()
 
 func check_empty(rows, cols):
 	var empty = false
