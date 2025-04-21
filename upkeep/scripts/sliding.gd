@@ -1,5 +1,8 @@
 extends Area2D
 
+const TILE_SIZE = 125
+const OFFSET = Vector2(326, 74)
+
 var tiles = []
 var solved = []
 var click = false
@@ -16,17 +19,19 @@ func start():
 func shuffle_tiles():
 	for tile in tiles:
 		var random_tile = tiles[randi() % 16]
-		var pos1 = int(tile.position.y / 125) * 4 + int(tile.position.x / 125)
-		var pos2 = int(random_tile.position.y / 125) * 4 + int(random_tile.position.x / 125)
+		var pos1 = int(tile.position.y / TILE_SIZE) * 4 + int(tile.position.x / TILE_SIZE)
+		var pos2 = int(random_tile.position.y / TILE_SIZE) * 4 + int(random_tile.position.x / TILE_SIZE)
 		swap(pos1, pos2)
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT) and click:
 		var click_copy = click
 		print(click.position)
+		click_copy.position -= OFFSET
+		click_copy.global_position -= OFFSET
 		click = false
-		var rows = int(click_copy.position.y / 125)
-		var cols = int(click_copy.position.x / 125)
+		var rows = int(click_copy.position.y / TILE_SIZE)
+		var cols = int(click_copy.position.x / TILE_SIZE)
 		print("Rows: ", rows, " Cols: ", cols)
 		check_empty(rows, cols)
 		if tiles == solved:
@@ -70,6 +75,6 @@ func swap(tile_src, tile_dst):
 	tiles[tile_dst] = temp_tile
 	
 
-func _input_event(viewport, event, shape_idx):
+func _input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton:
 		click = event
