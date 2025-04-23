@@ -21,7 +21,6 @@ func _on_floor_button_pressed() -> void:
 	add_child(new_scene)
 	
 
-
 func _on_scene1_exit():
 	$InputShield.hide()
 	$WindowButton.disabled = true
