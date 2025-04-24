@@ -32,5 +32,5 @@ func _on_scene2_exit():
 
 
 func _on_scene3_exit():
-	$StarterRoom.hide()
+	$InputShield.hide()
 	$FloorButton.disabled = true

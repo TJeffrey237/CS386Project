@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://2xkb4jkoy7fj"]
+[gd_scene load_steps=22 format=3 uid="uid://2xkb4jkoy7fj"]
 
 [ext_resource type="Script" uid="uid://b5e2bfa6yih7x" path="res://scripts/sliding.gd" id="1_jg6g1"]
 [ext_resource type="Texture2D" uid="uid://dd0kktuwfpgdc" path="res://assets/sprites/FloorTileBackground.png" id="2_4yhq1"]
@@ -18,7 +18,8 @@
 [ext_resource type="Texture2D" uid="uid://b7peeesufp5xf" path="res://assets/sprites/WoodTiles/Tile14.png" id="16_qj44n"]
 [ext_resource type="Texture2D" uid="uid://bsvunfa0wn476" path="res://assets/sprites/WoodTiles/Tile15.png" id="17_jp8kx"]
 [ext_resource type="Texture2D" uid="uid://b3yxh6d1x83g2" path="res://assets/sprites/WoodTiles/Tile16.png" id="18_l02ut"]
-[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="19_gg4kn"]
+[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/Buttons/ExitButton.png" id="19_gg4kn"]
+[ext_resource type="Texture2D" uid="uid://cfuuabb1ev8vq" path="res://assets/sprites/Buttons/ExitButtonPressed.png" id="20_4yhq1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_umfk4"]
 size = Vector2(500, 500)
@@ -121,13 +122,13 @@ scale = Vector2(2, 2)
 texture = ExtResource("18_l02ut")
 
 [node name="Exit" type="TextureButton" parent="."]
-visible = false
 offset_left = 561.0
 offset_top = -4.0
 offset_right = 761.0
 offset_bottom = 71.0
 size_flags_vertical = 3
 texture_normal = ExtResource("19_gg4kn")
+texture_pressed = ExtResource("20_4yhq1")
 stretch_mode = 4
 
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]

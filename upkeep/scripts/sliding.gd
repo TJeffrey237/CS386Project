@@ -7,6 +7,7 @@ var DEBUG_MODE = Server.DEBUG_MODE
 var tiles = []
 var solved = []
 var click = false
+
 signal exit_pressed
 
 func _ready():

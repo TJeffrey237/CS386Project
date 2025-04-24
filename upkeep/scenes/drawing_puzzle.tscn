@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://s7fowvfw4ews"]
+[gd_scene load_steps=10 format=3 uid="uid://s7fowvfw4ews"]
 
 [ext_resource type="Script" uid="uid://cgrlw4u0anoek" path="res://scripts/drawing_controller.gd" id="1_vcq85"]
 [ext_resource type="Shader" uid="uid://cnsvc2prl74bt" path="res://scripts/layer_mask.gdshader" id="2_2dg2b"]
 [ext_resource type="Texture2D" uid="uid://cme7kjp878ogo" path="res://assets/sprites/VanityMirrorClean.png" id="2_gnaad"]
-[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_83v84"]
+[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/Buttons/ExitButton.png" id="3_83v84"]
 [ext_resource type="Texture2D" uid="uid://w4sf3p0sheni" path="res://assets/sprites/VanityDrawingBackground.png" id="5_asrms"]
+[ext_resource type="Texture2D" uid="uid://cfuuabb1ev8vq" path="res://assets/sprites/Buttons/ExitButtonPressed.png" id="6_asrms"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_83v84"]
 shader = ExtResource("2_2dg2b")
@@ -64,6 +65,7 @@ offset_right = 525.0
 offset_bottom = -200.0
 size_flags_vertical = 3
 texture_normal = ExtResource("3_83v84")
+texture_pressed = ExtResource("6_asrms")
 stretch_mode = 4
 
 [connection signal="pressed" from="Exit" to="." method="_on_exit_button_pressed"]
