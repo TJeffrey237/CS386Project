@@ -1,9 +1,9 @@
-[gd_scene load_steps=17 format=3 uid="uid://b4bhuq144bdir"]
+[gd_scene load_steps=18 format=3 uid="uid://b4bhuq144bdir"]
 
 [ext_resource type="Script" uid="uid://c6hb4d76pbglv" path="res://scripts/jigsaw_controller.gd" id="1_sy1ui"]
 [ext_resource type="Texture2D" uid="uid://d7iwplv6ehis" path="res://assets/sprites/Window1Background.png" id="2_5m1gu"]
 [ext_resource type="Script" uid="uid://ctle6n04xd44s" path="res://scripts/placeable_object.gd" id="2_8ay3p"]
-[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/ExitButton.png" id="3_y3jfp"]
+[ext_resource type="Texture2D" uid="uid://cjqd1q2py11v1" path="res://assets/sprites/Buttons/ExitButton.png" id="3_y3jfp"]
 [ext_resource type="Texture2D" uid="uid://bi6csk0qi1k34" path="res://assets/sprites/WindowPieces/Piece1.png" id="4_58mt0"]
 [ext_resource type="Texture2D" uid="uid://cin4ss3sqeh46" path="res://assets/sprites/WindowPieces/Piece5.png" id="5_ufunp"]
 [ext_resource type="Texture2D" uid="uid://hubf7spu17gw" path="res://assets/sprites/WindowPieces/Piece9.png" id="6_53jq6"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://f5gl2dx57crm" path="res://assets/sprites/WindowPieces/Piece2.png" id="10_g56c1"]
 [ext_resource type="Texture2D" uid="uid://vwlphfv6kxmy" path="res://assets/sprites/WindowPieces/Piece3.png" id="11_wnn2n"]
 [ext_resource type="Texture2D" uid="uid://c0brs2wcrtypx" path="res://assets/sprites/WindowPieces/Piece7.png" id="12_cpxg1"]
+[ext_resource type="Texture2D" uid="uid://cfuuabb1ev8vq" path="res://assets/sprites/Buttons/ExitButtonPressed.png" id="14_wnn2n"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_y3jfp"]
 
@@ -252,6 +253,7 @@ offset_right = 525.0
 offset_bottom = -200.0
 size_flags_vertical = 3
 texture_normal = ExtResource("3_y3jfp")
+texture_pressed = ExtResource("14_wnn2n")
 stretch_mode = 4
 
 [connection signal="pressed" from="Exit" to="." method="_on_exit_button_pressed"]
