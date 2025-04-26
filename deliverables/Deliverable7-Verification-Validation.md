@@ -1,5 +1,6 @@
 # Description #
-Provide 1-2 paragraphs to describe your system. This will help us to remember what your system is about. 
+Upkeep is a 2D pixel art puzzle game that places players in the role of a house renovator. The core gameplay involves selecting renovation tasks and solving environment-based puzzles to restore homes for a variety of homeowners. With each house comes a unique set of puzzles and light storylines that are gradually revealed as the player progresses through the renovation process. Upkeep also emphasizes simplicity across all design aspects, including puzzle mechanics, user interface, and visual presentation. This approach allows for a greater range of accessibility between users while also engaging them in a simple and relaxing gameplay experience.
+- Repository: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Verification #
 Verification aims to ensure that you correctly developed the product. 
