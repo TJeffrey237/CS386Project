@@ -78,5 +78,30 @@ For the final portion of the evaluation, we express our gratitude to the partici
 - **Example**: "That’s everything! Thanks again for taking the time to share your feedback and it will be very valuable in helping us improve our product. If you have any other thoughts after today, feel free to reach us at my email: tsj78@nau.edu."
 
 ## Results ##
+### Session 1 ###
+**Playtester**: Madison Price<br/>
+**Interviwer**: Tyler Jeffrey<br/>
+**Observations**:
+- ...
 
+**Post-Session Interview**:
+- ...
+
+### Session 2 ###
+**Playtester**: Lydia Wolford<br/>
+**Interviwer**: Tyler Jeffrey<br/>
+**Observations**:
+- ...
+
+**Post-Session Interview**:
+- ...
+
+### Session 3 ###
+**Playtester**: blank<br/>
+**Interviwer**: blank<br/>
+**Observations**:
+- ...
+
+**Post-Session Interview**:
+- ...
 ## Reflection ##
