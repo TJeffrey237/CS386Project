@@ -3,14 +3,13 @@ Upkeep is a 2D pixel art puzzle game that places players in the role of a house 
 - Repository: [Upkeep](https://github.com/TJeffrey237/CS386Project)
 
 # Verification #
-Verification aims to ensure that you correctly developed the product. 
+- Testing Framework: Godot Unit Test (GUT)
+- Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
+- Test Case with Mock Objects: [Link]()
+- Print Screen:
 
-For this deliverable, show an example of a unit test that uses mock objects to isolate the class from the rest of the system. 
+![image](https://github.com/user-attachments/assets/6300b215-40a8-438a-925f-bac497620652)
 
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case that makes use of mock objects. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the unit tests execution. 
 
 # Acceptance Test #
 An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
