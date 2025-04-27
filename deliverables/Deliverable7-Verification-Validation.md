@@ -81,10 +81,21 @@ For the final portion of the evaluation, we express our gratitude to the partici
 **Playtester**: Madison Price<br/>
 **Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
-- ...
+- 
 
 **Post-Session Interview**:
-- ...
+- 1: Liked the menu, places for all buttons, suggests color changes
+- 2: Enjoyed pixelated art style, it's like a staple for indie games and it's not a common art style anymore, good colors
+- 3: All three were pretty obvious in terms of how to solve, only had to ask questions to double check
+- 4: The sliding puzzle, personally not great with those types of puzzles
+- 5: Understood the  core idea of the game very easily, very clear that user is doing tasks to fix/decorate house
+- 6: Crack in the wall, some sort of pipe rotation puzzle to restore running water. Dying plant that you have to water.
+- 7: Would keep playing to complete difficult puzzles but not super likely because it's not directly their style of puzzles
+- 8: Adding more puzzles, readjusting the difficulty of the sliding puzzles.
+- 9: Least favorite was the number/sliding puzzle, maybe a little too easy for the drawing puzzle
+- 10: Really loved the menu screen and text
+- 11: Thinks they are similar in general concept and simple gameplay
+- 12: 7.5-8
 
 ### Session 2 ###
 **Playtester**: Lydia Wolford<br/>
