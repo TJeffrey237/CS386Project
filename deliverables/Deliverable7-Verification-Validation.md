@@ -21,14 +21,6 @@ A print screen/video showing the acceptance test execution.
 
 
 # Validation #
-At the beginning of the semester, you talked to the clients/potential users to understand their needs. Now it is time to check if you are on the right track by conducting some user evaluation on the actual system. Include in this deliverable the following information:
-
-Script: The script should have the tasks that you gave to the user, what data you collected, and the questions you asked. In particular, do not forget to add questions about the users’ general impressions. You can ask open questions (e.g., How would you describe the homepage of our app? How do you compare our system to the competitor X?) or closed questions (On a scale of 1 to 10, how would you rate the layout of our application? On the same scale, how likely would you use the system in its current state?). Take a look at the inception and requirements deliverables to help create the script. Design a script to check if you are achieving your initial goals and if the features are implemented in a satisfactory way. 
-
-Results: Conduct the user evaluation with at least 3 users. Report the data that you collected.
-
-Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished?
-
 ## Script ##
 ### Introduction ###
 Introduce product and briefly describe what user will be doing and what sorts of information will be collected throughout play session. Instruct user to also think-aloud throughout the session and emphasize the fact that all thoughts are welcome positive or negative.
@@ -105,28 +97,34 @@ For the final portion of the evaluation, we express our gratitude to the partici
 **Playtester**: Lydia Wolford<br/>
 **Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
-- ..
+- Had no unexpected actions throughout any part of the session.
+- Struggled to understand what some of the objects could be.
+- Did not get stuck or encounter any bugs/issues.
+- Had a lot of fun trying to solve the sliding puzzle.
+- Progressed as intended and liked the updated visuals to the room based on puzzle.
 
 **Post-Session Interview**:
-1. Good, thought it was kind of empty
-2. Liked it, lieks being able to tell which is which
-3. Struggled to understand what was happening when you first opened the puzzle, but otherwise very simple
-4. Mechanics wise the sliding puzzle, but figuring out how it fit into the game was the drawing one
-5. Fixer-upper ad game vibes, enjoyed harder puzzles
-6. Would add themes to certaain rooms, like puzzlews based on kitchen
-7. Would not
-8. Wants more puzzles
-9. Least favorite thing was the lack on animations/sound
-10. Liked the colors for the floor and background of the room
-11. Somewhat similar in terms of how the user interacts with the game but they are much different in terms of goal/outcome
-12. 9, some things could appear more broken
+1. Thought that the layout of everything was good, only thought was that it felt sort of empty.
+2. Enjoyed the art, was able to tell what objects are what without difficulty and thought the designs were unique.
+3. Struggled to understand what was happening when they first opened the puzzles, but otherwise thought mechanics were simple and easy to understand.
+4. Struggled the most mechanics wise the sliding puzzle, but also had difficulties figuring out how the vanity puzzle fit into the game.
+5. Felt likea fixer-upper type of game, enjoyed harder puzzles that were associated with it.
+6. Suggested adding room specific themes to each puzzle, such as puzzles with kitchenware in the kitchen.
+7. Not very likely to continue playing the game in it's current state.
+8. Would enjoy having more puzzles to help extend playtime and increase variety.
+9. Least favorite thing was the lack of animations/sound, game felt static.
+10. Favorite thing was the colors for the floor and background of the room, as well as difficulty for sliding puzzle.
+11. Thought that they were somewhat similar in terms of how the user interacts with the game but they are much different in terms of goal/outcome between each game.
+12. Rated a 9 for clarity, thought that some things could look more broken to emphasize the goal.
 
 ### Session 3 ###
-**Playtester**: blank<br/>
-**Interviwer**: blank<br/>
+**Playtester**: Veronica Russell<br/>
+**Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
 - ...
 
 **Post-Session Interview**:
 - ...
+
 ## Reflection ##
+Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished?
