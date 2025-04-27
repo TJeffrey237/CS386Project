@@ -105,10 +105,21 @@ For the final portion of the evaluation, we express our gratitude to the partici
 **Playtester**: Lydia Wolford<br/>
 **Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
-- ...
+- ..
 
 **Post-Session Interview**:
-- ...
+1. Good, thought it was kind of empty
+2. Liked it, lieks being able to tell which is which
+3. Struggled to understand what was happening when you first opened the puzzle, but otherwise very simple
+4. Mechanics wise the sliding puzzle, but figuring out how it fit into the game was the drawing one
+5. Fixer-upper ad game vibes, enjoyed harder puzzles
+6. Would add themes to certaain rooms, like puzzlews based on kitchen
+7. Would not
+8. Wants more puzzles
+9. Least favorite thing was the lack on animations/sound
+10. Liked the colors for the floor and background of the room
+11. Somewhat similar in terms of how the user interacts with the game but they are much different in terms of goal/outcome
+12. 9, some things could appear more broken
 
 ### Session 3 ###
 **Playtester**: blank<br/>
