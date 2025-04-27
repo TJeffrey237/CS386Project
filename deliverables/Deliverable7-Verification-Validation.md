@@ -81,21 +81,25 @@ For the final portion of the evaluation, we express our gratitude to the partici
 **Playtester**: Madison Price<br/>
 **Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
-- 
+- Unexpected action when first looking at drawing puzzle included trying to figure out potential mechanics with the background.
+- Did not get stuck or encounter any bugs/issues during session.
+- Progressed normally, very quick to pick up on what to do next.
+- Asked some questions about the sliding puzzle.
+- Noticed a lot of details with the art, seemed to enjoy it.
 
 **Post-Session Interview**:
-- 1: Liked the menu, places for all buttons, suggests color changes
-- 2: Enjoyed pixelated art style, it's like a staple for indie games and it's not a common art style anymore, good colors
-- 3: All three were pretty obvious in terms of how to solve, only had to ask questions to double check
-- 4: The sliding puzzle, personally not great with those types of puzzles
-- 5: Understood the  core idea of the game very easily, very clear that user is doing tasks to fix/decorate house
-- 6: Crack in the wall, some sort of pipe rotation puzzle to restore running water. Dying plant that you have to water.
-- 7: Would keep playing to complete difficult puzzles but not super likely because it's not directly their style of puzzles
-- 8: Adding more puzzles, readjusting the difficulty of the sliding puzzles.
-- 9: Least favorite was the number/sliding puzzle, maybe a little too easy for the drawing puzzle
-- 10: Really loved the menu screen and text
-- 11: Thinks they are similar in general concept and simple gameplay
-- 12: 7.5-8
+1. Liked the menu and overall layout of all buttons. Suggested some minor changes with coloring in the room to help emphasize the theme of the game.
+2. Really enjoyed the pixelated art-style of the game since it's one of decreasing popularity and coloring was done very well.
+3. Thought that each puzzle was obvious in terms of how to solve, and only asked a few questions just to double-check if they were doing the correct thing.
+4. Had the most difficulty with the sliding puzzle as they are personally not great at those types of puzzles.
+5. Understood the core idea of the game very easily, said that they were able to guess what the main idea was by the second puzzle.
+6. Suggested to have cracks in the wall, with some sort of pipe rotation puzzle to restore running water. Also had ideas for having a dying plant that you have to water.
+7. Said that they would keep playing to complete the more difficult puzzles, but said that it needs more variation in types of puzzles and that they personally just aren't great at puzzles in general.
+8. To change the game, they suggested adding more puzzles, readjusting the difficulty of the sliding puzzle, and adding more decoration to the room.
+9. Least favorite aspect was the sliding puzzle, but they would retry it in order to solve the difficult puzzle.
+10. Most favorite aspect was the menu screen, said the font, colors, and theme with the wall was creative.
+11. Looking at competitors such as Unpacking/A Little to the Left, they were similar in terms of ideas with the house and simple gameplay, but neither of them are exploring the topic of house restoration directly.
+12. Rated a 7.5-8 for clarity in terms of the end-goal for the game.
 
 ### Session 2 ###
 **Playtester**: Lydia Wolford<br/>
