@@ -6,16 +6,24 @@ var parent_node
 @export var moveable = true
 var DEBUG_MODE = Server.DEBUG_MODE
 
+var _server = Server
+var _debug_mode = DEBUG_MODE
+
+# function to help with testing
+func set_dependencies(server_instance, debug_mode: bool):
+	_server = server_instance
+	_debug_mode = debug_mode
+
 func _ready():
 	parent_node = get_parent()
 	
-	if DEBUG_MODE:
+	if _debug_mode:
 		print("Object ready start.")
 		
-	var response = Server.handle_request("add_object", {
+	var response = _server.handle_request("add_object", {
 		"object_id": object_id,
 		"object": self
 	})
 	
-	if DEBUG_MODE:
+	if _debug_mode:
 		print("Server Response to Add: ", response)
