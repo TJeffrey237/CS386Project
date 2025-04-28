@@ -5,7 +5,7 @@ Upkeep is a 2D pixel art puzzle game that places players in the role of a house 
 # Verification #
 - Testing Framework: Godot Unit Test (GUT)
 - Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests/unit)
-- Test Case with Mock Objects: [Link]()
+- Test Case with Mock Objects: [Link](https://github.com/TJeffrey237/CS386Project/blob/main/upkeep/tests/test_object.gd)
 - Print Screen:
 
 ![image](https://github.com/user-attachments/assets/6300b215-40a8-438a-925f-bac497620652)
@@ -121,10 +121,24 @@ For the final portion of the evaluation, we express our gratitude to the partici
 **Playtester**: Veronica Russell<br/>
 **Interviwer**: Tyler Jeffrey<br/>
 **Observations**:
-- ...
+- No unexpected actions from tester
+- Struggled during the sliding puzzle and slightly when starting game.
+- Progressed as intended through puzzles.
+- Encountered no bugs/issues during session.
 
 **Post-Session Interview**:
-- ...
+1. Said that the overall layout was nice, felt that there could be some improvements with responsiveness.
+2. Liked the pixelated art-style, noted key points about the puzzle backgrounds.
+3. Each puzzle was about equally as hard to understand, the mechanics themselves were simple.
+4. Struggled the most with completing the sliding puzzle despite simplicity as it took much longer to do.
+5. Core idea for the game wasn't immediately obvious, but otherwise enjoyed the premise.
+6. Suggested puzzles related to textiles/fabrics, possibly with some sort of sewing involved.
+7. Said they were likely to play again because they enjoy the quick playthrough and simplicity, they look for games that can be done in the background.
+8. Thinks that adding different environments or rooms would be beneficial.
+9. Least favorite aspect was the time spent to complete the sliding puzzle.
+10. Favorite aspect was the window puzzle because they enjoy jigsaw-type puzzles.
+11. Based on similar competitors, they said that there are some slight similarities in concept but that neither games focus on puzzles in the context of house renovation.
+12. Rated a 6 for clarity, suggested that there be some sort of information block at the start to help describe the goal.
 
 ## Reflection ##
-Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished?
+Looking at our interviews, there are a lot of things that we did correctly and some things that we may have failed to deliver on. In terms of art style and design, all users had a positive experience and found minimal things to either correct or change. Puzzles had a mixed reception with majority of it being positive, where users enjoyed the simplicity aspect of the experience and found it very easy to understand the core mechanics between scenes. Looking at what can be changed/added, it's a priority to add more visual/audible feedback for the users to help promote engagement with the game. It was also suggested that more puzzles be added to help extend the variety between objects. As for the learning curve, all users had no issues picking up and completing all parts of the game which falls directly in line with our intended goal of simplicity. Based on playthroughs, it was found that some of the users mistakenly tried to interact with irrelevant pieces of the puzzle while trying to intiially figure out mechanics, making this a small unexpected behavior. Based on our value proposition, we have successfully created the product we intended to make alongside lots of potential changes that can be made to improve the experience. 
