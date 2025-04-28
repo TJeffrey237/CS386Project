@@ -1,4 +1,4 @@
-extends	Node2D
+extends Node2D
 
 var game_state = {}
 var available_actions = {}
