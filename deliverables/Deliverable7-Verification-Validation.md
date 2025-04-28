@@ -4,7 +4,7 @@ Upkeep is a 2D pixel art puzzle game that places players in the role of a house 
 
 # Verification #
 - Testing Framework: Godot Unit Test (GUT)
-- Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests)
+- Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests/unit)
 - Test Case with Mock Objects: [Link]()
 - Print Screen:
 
@@ -12,12 +12,12 @@ Upkeep is a 2D pixel art puzzle game that places players in the role of a house 
 
 
 # Acceptance Test #
-An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
+- Test framework: Godot Unit Test (GUT)
+- Test Location: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests/acceptance)
+- Testing users clicking on the buttons in the starter room: [Link](https://github.com/TJeffrey237/CS386Project/tree/main/upkeep/tests/acceptance/test_starter_room_functionality.gd)
+- Print Screen:
 
-Test framework you used to develop your tests (e.g., Selenium, Katalon Studio, Espresso2, Cucumber, etc.)
-Link to your GitHub folder where your automated acceptance tests are located.
-An example of an acceptance test. Include in your answer a GitHub link to the test and an explanation about the tested feature.
-A print screen/video showing the acceptance test execution. 
+![image](https://github.com/user-attachments/assets/ab57611d-3495-4140-a854-100a246d8b1f)
 
 
 # Validation #
