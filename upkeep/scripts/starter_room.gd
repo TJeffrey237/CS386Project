@@ -29,6 +29,7 @@ func _on_scene1_exit():
 func _on_scene2_exit():
 	$InputShield.hide()
 	$VanityButton.disabled = true
+	$Bed.show()
 
 
 func _on_scene3_exit():
