@@ -1,9 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://dh34djn7cxg10"]
+[gd_scene load_steps=14 format=3 uid="uid://dh34djn7cxg10"]
 
 [ext_resource type="Texture2D" uid="uid://cxlxibktxdwyw" path="res://assets/sprites/TiledBackground.png" id="1_bdgl8"]
 [ext_resource type="Script" uid="uid://br2a4xh6oxlpt" path="res://scripts/starter_room.gd" id="1_hytlw"]
 [ext_resource type="Texture2D" uid="uid://dk1digycpbwuc" path="res://assets/sprites/StarterRoom.png" id="2_3dxns"]
 [ext_resource type="Texture2D" uid="uid://df0bg505q0ddc" path="res://assets/sprites/Window1Broken.png" id="4_jhg2j"]
+[ext_resource type="Texture2D" uid="uid://b604vem4nxxgk" path="res://assets/sprites/Bed.png" id="4_tcvgf"]
 [ext_resource type="Texture2D" uid="uid://hwugr14wrm5m" path="res://assets/sprites/Window1Hover.png" id="5_6m1jm"]
 [ext_resource type="Texture2D" uid="uid://hg5d1a1ju7ds" path="res://assets/sprites/Floor1Hover.png" id="5_vkfl5"]
 [ext_resource type="Texture2D" uid="uid://5vgnmr4mww6i" path="res://assets/sprites/Window1Fixed.png" id="6_6m1jm"]
@@ -38,11 +39,11 @@ texture_disabled = ExtResource("6_esh77")
 stretch_mode = 4
 
 [node name="VanityButton" type="TextureButton" parent="."]
-offset_left = 318.0
-offset_top = 289.0
-offset_right = 358.0
-offset_bottom = 329.0
-scale = Vector2(5, 5)
+offset_left = 302.0
+offset_top = 315.0
+offset_right = 342.0
+offset_bottom = 355.0
+scale = Vector2(4.5, 4.5)
 texture_normal = ExtResource("7_82tis")
 texture_hover = ExtResource("8_tcvgf")
 texture_disabled = ExtResource("9_t0ikn")
@@ -57,6 +58,12 @@ texture_normal = ExtResource("4_jhg2j")
 texture_hover = ExtResource("5_6m1jm")
 texture_disabled = ExtResource("6_6m1jm")
 stretch_mode = 4
+
+[node name="Bed" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(604, 375)
+scale = Vector2(4, 4)
+texture = ExtResource("4_tcvgf")
 
 [node name="InputShield" type="ColorRect" parent="."]
 visible = false
